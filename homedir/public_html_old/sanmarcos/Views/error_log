@@ -1,0 +1,10 @@
+[27-Jun-2023 09:41:27 America/Bogota] PHP Notice:  Undefined variable: data in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1047
+[27-Jun-2023 09:44:04 America/Bogota] PHP Notice:  Undefined variable: data in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1047
+[28-Jun-2023 11:16:28 America/Bogota] PHP Notice:  Undefined variable: fechas1 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1082
+[28-Jun-2023 11:16:28 America/Bogota] PHP Notice:  Undefined variable: estados1 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1085
+[28-Jun-2023 11:16:28 America/Bogota] PHP Notice:  Undefined variable: fechas2 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1109
+[28-Jun-2023 11:16:28 America/Bogota] PHP Notice:  Undefined variable: estados2 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1112
+[28-Jun-2023 11:16:31 America/Bogota] PHP Notice:  Undefined variable: fechas1 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1082
+[28-Jun-2023 11:16:31 America/Bogota] PHP Notice:  Undefined variable: estados1 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1085
+[28-Jun-2023 11:16:31 America/Bogota] PHP Notice:  Undefined variable: fechas2 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1109
+[28-Jun-2023 11:16:31 America/Bogota] PHP Notice:  Undefined variable: estados2 in /home/janoscom/public_html/sanmarcos/Views/Index.php on line 1112

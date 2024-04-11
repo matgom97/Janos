@@ -1,0 +1,78 @@
+@font-face{
+    font-family: figtree-Black;
+    src: url("../Fonts/figtree-Black.ttf");
+}
+
+@font-face{
+    font-family: Figtree-BlackItalic;
+    src: url("../Fonts/Figtree-BlackItalic.ttf");
+}
+
+@font-face{
+    font-family: Figtree-Bold;
+    src: url("../Fonts/Figtree-Bold.ttf");
+}
+
+@font-face{
+    font-family: Figtree-BoldItalic;
+    src: url("../Fonts/Figtree-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: Figtree-ExtraBold;
+    src: url("../Fonts/Figtree-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: Figtree-ExtraBoldItalic;
+    src: url("../Fonts/Figtree-ExtraBoldItalic.ttf");
+}
+
+@font-face{
+    font-family: Figtree-Italic;
+    src: url("../Fonts/Figtree-Italic.ttf");
+}
+
+@font-face{
+    font-family: Figtree-Light;
+    src: url("../Fonts/Figtree-Light.ttf");
+}
+
+@font-face{
+    font-family: Figtree-LightItalic;
+    src: url("../Fonts/Figtree-LightItalic.ttf");
+}
+
+@font-face{
+    font-family: Figtree-Light;
+    src: url("../Fonts/Figtree-Light.ttf");
+}
+
+@font-face{
+    font-family: Figtree-Medium;
+    src: url("../Fonts/Figtree-Medium.ttf");
+}
+
+@font-face{
+    font-family: Figtree-MediumItalic;
+    src: url("../Fonts/Figtree-MediumItalic.ttf");
+}
+
+@font-face{
+    font-family: Figtree-Regular;
+    src: url("../Fonts/Figtree-Regular.ttf");
+}
+
+@font-face{
+    font-family: Figtree-SemiBold;
+    src: url("../Fonts/Figtree-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: Figtree-SemiBoldItalic;
+    src: url("../Fonts/Figtree-SemiBoldItalic.ttf");
+}
+
+body{
+    font-family: Figtree-Regular;
+}

@@ -1,0 +1,607 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202303 will be lost/reset.
+# Last config file used to build this data file was /home/janoscom/tmp/awstats/ssl/awstats.janos.com.co.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2695                
+POS_VISITOR 17600               
+POS_DAY 21890               
+POS_DOMAIN 3519                
+POS_LOGIN 3807                
+POS_ROBOT 3962                
+POS_WORMS 4306                
+POS_EMAILSENDER 4437                
+POS_EMAILRECEIVER 4580                
+POS_SESSION 22624               
+POS_SIDER 22835               
+POS_FILETYPES 4715                
+POS_DOWNLOADS 4977                
+POS_OS 5025                
+POS_BROWSER 5232                
+POS_SCREENSIZE 5667                
+POS_UNKNOWNREFERER 5741                
+POS_UNKNOWNREFERERBROWSER 5972                
+POS_ORIGIN 6198                
+POS_SEREFERRALS 6337                
+POS_PAGEREFS 6500                
+POS_SEARCHWORDS 6676                
+POS_KEYWORDS 6828                
+POS_MISC 2359                
+POS_ERRORS 6887                
+POS_CLUSTER 3663                
+POS_SIDER_404 7015                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230401010150 888 255295 9409761183789
+FirstTime 20230301012855
+LastTime 20230331223342
+LastUpdate 20230401071907 888 0 887 0 0
+TotalVisits 192                 
+TotalUnique 108                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 34 113 13135152 41 86 101516
+1 50 111 4153380 80 139 168368
+2 15 42 1243835 10 16 15563
+3 2 2 24914 0 2 0
+4 17 57 3217168 0 8 7428
+5 8 39 1216398 3 6 8528
+6 0 0 0 0 0 0
+7 26 84 6246152 33 70 714340
+8 28 68 3459983 42 74 78703
+9 39 103 9258804 54 130 157402
+10 15 37 422542 17 68 81708
+11 61 116 6632203 135 182 218771
+12 108 118 1602595 29 79 55886
+13 13 43 2132361 11 17 13087
+14 123 465 16372170 107 168 168779
+15 135 363 50056380 91 161 179510
+16 54 87 3714362 120 198 242117
+17 115 223 9974851 108 159 197879
+18 54 89 1993705 67 90 105661
+19 43 84 6055429 41 66 73218
+20 81 189 5570298 60 175 207274
+21 59 219 8263296 67 242 361688
+22 32 90 6820466 36 49 58362
+23 25 60 3480606 33 78 101623
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+co 1044 2709 164449423
+us 82 82 478332
+gb 6 6 74742
+eu 3 3 37401
+jp 2 2 7152
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+facebookexternalhit/ 7 24306 20230328210928 0
+Apache\-HttpClient/ 3 19603 20230323074956 0
+bingbot/ 2 7152 20230320185548 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 12457 20230326170437 0
+survey 1 12487 20230331234543 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+js 314 2072346 0 0
+png 502 150409900 0 0
+css 160 1735080 0 0
+jpeg 8 823774 0 0
+php 379 1750789 0 0
+html 522 1345698 0 0
+jfif 76 258004 0 0
+svg 668 960670 0 0
+ttf 160 3346733 0 0
+jpg 13 2344056 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+Unknown 8 8
+ios_iphone 38 11
+linux 78 78
+win7 2 2
+androidnougat 1 1
+macosx15 8 7
+androidfroyo 2 2
+win10 2470 979
+macosx11 1 1
+android 194 48
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+chrome106.0.5249.126 50 18
+chrome59.0.3071.125 1 1
+firefox105.0 2 2
+firefox111.0 33 7
+safari15.5 37 10
+chrome66.0.3359.181 5 5
+safari16.1 1 1
+chrome95.0.4638.54 1 1
+chrome111.0.5563.115 30 5
+Unknown 8 8
+chrome109.0.0.0 2 2
+chrome83.0.4103.97 72 72
+chrome111.0.0.0 2490 946
+firefox52.0 1 1
+firefox104.0 6 6
+android 2 2
+chrome64.0.3282.186 2 2
+chrome110.0.0.0 58 47
+chrome113.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WhatsApp/2.23.5.78_A 20230327174959
+WhatsApp/2.23.6.76_A 20230331085605
+WhatsApp/2.23.5.78_i 20230330021410
+WhatsApp/2.23.4.79_A 20230304140348
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WhatsApp/2.23.5.78_A 20230327174959
+WhatsApp/2.23.6.76_A 20230331085605
+WhatsApp/2.23.5.78_i 20230330021410
+WhatsApp/2.23.4.79_A 20230304140348
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 719 732
+From1 0 0
+From2 2 2
+From3 1 1
+From4 415 2067
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 2049 2527996
+301 35 19326
+500 26 0
+206 4 694084
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 142
+/boton/icon120x120.png 1 https://janos.com.co/boton/boton.html
+/sanmarcos/Views/Login.html 9 https://janos.com.co/sanmarcos/
+/sanmarcosbms/Templates/icons/x.svg 17 https://janos.com.co/sanmarcosbms/Templates/Css/styles.css
+/Templates/Images/Resources/descarga.jfif 1 -
+/Templates/Images/Mapa-piso-2/mapa-piso-2.png 1 -
+/sanmarcos/templates/images/resources/banao.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/templates/images/resources/planta-habitacion-204.png 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/templates/icons/sun.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/robots.txt 2 -
+/boton/icon192x192.png 1 https://janos.com.co/boton/boton.html
+/sanmarcos/Templates/Js/bootstrap.min.js.map 275 -
+/sanmarcos/Views/Indexphp 3 -
+/sanmarcos/templates/js/bootstrap.min.js 6 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcos/Views/switch.js 2 https://janos.com.co/sanmarcos/Views/Index.php
+/sanmarcos/templates/images/resources/aire-acondicionado.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/Views/path/to/Chart.min.js 13 https://janos.com.co/sanmarcos/Views/Index.php
+/boton/ 2 -
+/sanmarcos/Templates/Images/mapa-piso-2/habitacion-203.png 13 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Templates/icons/triangle-right.svg 194 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/Templates/Images/Resources/television.svg 1 -
+/sanmarcos/Templates/icons/triangle-down.svg 36 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/templates/images/resources/habitacion.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/Templates/Icons/search.svg 1 -
+/example/ 1 -
+/test/ 1 -
+/sanmarcosBMS 1 -
+/sanmarcos/Templates/Images/mapa-piso-2/mapa-piso-2.png 18 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/templates/images/resources/bombillo-encendido.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/templates/images/Login/fondo-login-JMS-Janos.jpg 16 https://janos.com.co/sanmarcos/Templates/css/styles.css
+/boton/manifest.json 1 https://janos.com.co/boton/boton.html
+/Templates/Images/Resources/banao.svg 1 -
+/grafica/ 5 -
+/sanbmarcosbms 1 -
+/sanmarcos/View/index.php 1 -
+/sanmarcos/Templates/Images/mapa-piso-2/habitacion-204.png 6 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Index.html 1 -
+/Views/login.html 1 https://janos.com.co/sanmarcos/
+/sanmarcos/public_html/sanmarcos/Templates/bootstrap-5.3.0/css/bootstrap.min.css.map 2 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcos/Views/Login.php 1 https://janos.com.co/sanmarcos/
+/sanmarcos/Views/Index.html 14 -
+/sanmarcos//templates/css/fonts.css 2 http://localhost:50255/
+/sanmarcos/Views/..templates/images/Resources/user.svg 3 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcosbms/Templates/icons/triangle-right.svg 17 https://janos.com.co/sanmarcosbms/Templates/Css/styles.css
+/boton/js/app.min.js 1 https://janos.com.co/boton/boton.html
+/sanmarcos/V 1 -
+/sanmarcos/templates/css/styles.css 15 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/Templates/Images/Login/fondo-login-JMS-Janos.jpg 6 https://janos.com.co/sanmarcos/Templates/css/styles.css
+/sanmarcos/Views/login.php 4 -
+/sanmarcos/templates/images/resources/hotel.png 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/Templates/fonts/figtree-Regular.ttf 10 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Index 1 -
+/sanmarcos/Templates/Images/mapa-piso-2/habitacion-202.png 4 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/templates/images/resources/user.svg 8 https://janos.com.co/sanmarcos/Views/Login.html
+/Templates/Images/Resources/user.svg 3 -
+/chk 1 -
+/sanmarcos/Templates/fonts/figtree-Italic.ttf 9 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Views/actions.js 1 https://janos.com.co/sanmarcos/Views/Index.php
+/sanmarcos/Templates/fonts/figtree-Bold.ttf 10 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Views/Inde.php 1 -
+/sanmarcos/Templates/css/bootstrap/bootstrap.min.css.map 7 -
+/sanmarcos/Templates/Images/mapa-piso-2/habitacion-207.png 1 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/Templates/Icons/sun.svg 1 -
+/sanmarcos/Templates/Images/mapa-piso-2/habitacion-205.png 4 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Templates/icons/x.svg 192 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/public_html/sanmarcos/Templates/css 1 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcos/Templates/Images/Resources/Image-piso.png 19 https://janos.com.co/sanmarcos/Views/Index.html
+/janos/ 2 -
+/sanmarcos/Views/I 1 -
+/sanmarcos/templates/images/resources/television.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/Templates/fonts/Figtree-Medium.ttf 89 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/Templates/Images/Resources/image-piso.png 1 -
+/sanmarcos/home/janoscom/public_html/sanmarcos/Templates/bootstrap-5.3.0/css/bootstrap.min.css.map 1 https://janos.com.co/sanmarcos/Views/Login.html
+/janos/api.js 1 https://janos.com.co/janos/
+/Templates/Icons/temperatura.svg 1 -
+/sanmarcos/Templates/fonts/Figtree-Bold.ttf 88 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/janos/public_html/janos/cors-anywhere.js 3 https://janos.com.co/janos/
+/sanmarcos/public_html/sanmarcos/Templates/images/Resources/user.svg 2 https://janos.com.co/sanmarcos/Views/Login.html
+/janos/HorusSmartControllerAPI.php 6 https://janos.com.co/janos/
+/sanmarcos/Views/..Ttemplates/images/resources/user.svg 1 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcos/Views/..Templates/images/resources/user.svg 1 https://janos.com.co/sanmarcos/Views/Login.html
+/Templates/Images/Resources/hotel.png 1 -
+/sanmarcos/Views/public_html/sanmarcos/Views/mi_script.js 2 -
+/sanmarcos/Templates/fonts/Figtree-Regular.ttf 31 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Templates/Css/Bootstrap/bootstrap.min.css.map 285 -
+/Templates/Icons/clock.svg 1 -
+/sanmarcos/Templates/fonts/Figtree-Italic.ttf 26 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/janos/192.168.1.119:8123/api/sensors 1 https://janos.com.co/janos/
+/sanmarcos/Templates/images/resources/user.svg 1 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcos/Views/indexphp 1 -
+/sanmarcos/home/janoscom/public_html/sanmarcos/Templates/css/bootstrap/bootstrap.min.css 1 https://janos.com.co/sanmarcos/Views/Login.html
+/boton/css/app.min.css 1 https://janos.com.co/boton/boton.html
+/sanmarcos/Templates/js/bootstrap.min.js 50 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/Views/..Templates/images/Resources/user.svg 7 https://janos.com.co/sanmarcos/Views/Login.html
+/janos/192.168.1.119:8123/api/states 2 https://janos.com.co/janos/
+/sanmarcos//templates/css/bootstrap/bootstrap.min.css 3 http://localhost:50255/
+/sanmarcos/Templates/fonts/Figtree-SemiBold.ttf 88 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/templates/icons/search.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/templates/css/bootstrap/bootstrap.min.css 17 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/templates/icons/clock.svg 11 https://janos.com.co/sanmarcos/Views/Index.html
+/Templates/Images/Resources/cama.svg 1 -
+/sanmarcos/views/index.html 3 -
+/sanmarcos/Templates/fonts/figtree-SemiBold.ttf 10 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Views/public_html/sanmarcos/Views/actions.js 2 -
+/test/script.js 2 https://janos.com.co/test/
+/sanmarcos/templates/images/Resources/user.svg 4 https://janos.com.co/sanmarcos/Views/Login.html
+/boton/icon64x64.png 1 https://janos.com.co/boton/boton.html
+/sanmarcos/Views/index.html 7 -
+/sanmarcobms/Views/Index.php 1 -
+/Templates/Images/Resources/habitacion.svg 1 -
+/sanmarcos/Views/templates/css/bootstrap/bootstrap.min.css 3 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcos/templates/images/resources/descarga.jfif 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/Views/templates/js/bootstrap.min.js 3 https://janos.com.co/sanmarcos/Views/Login.html
+/Templates/Images/Resources/imagen-construccion.png 1 -
+/sanmarcos/Views/templates/css/styles.css 3 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcosbms/Views/index.html 2 https://janos.com.co/sanmarcosbms/Views/Estadisticas_generales.html
+/sanmarcos/Index.php 1 -
+/sanmarcos/Views/login.html 3 https://janos.com.co/sanmarcos/
+/Templates/Images/Resources/logo-JMS-JANOS.png 3 -
+/Templates/Images/Resources/aire-acondicionado.svg 1 -
+/sanmarcos/templates/images/resources/logo-JMS-JANOS.png 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcos/Templates/Css/Fonts.css 12 https://janos.com.co/sanmarcos/Views/Index.html
+/Templates/Images/Login/logo-BMS-JANOS-blanco.png 1 -
+/sanmarcos/Views/templates/css/fonts.css 3 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcosbms/Templates/icons/triangle-down.svg 3 https://janos.com.co/sanmarcosbms/Templates/Css/styles.css
+/sanmarcos//templates/css/styles.css 2 http://localhost:50255/
+/sanmarcos/templates/images/resources/image-piso.png 11 https://janos.com.co/sanmarcos/Views/Index.html
+/sanmarcobms/Views/Index.html 1 -
+/sanmarcosbms/Templates/Js/bootstrap.min.js.map 34 -
+/sanmarcos/Views/templates/images/resources/user.svg 2 https://janos.com.co/sanmarcos/Views/Login.html
+/sanmarcos/Templates/Images/mapa-piso-2/habitacion-201.png 37 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/Templates/fonts/figtree-Medium.ttf 10 https://janos.com.co/sanmarcos/Templates/Css/styles.css
+/sanmarcos/templates/css/fonts.css 16 https://janos.com.co/sanmarcos/Views/Index.html
+/janos/%3CTU_API_URL_AQUI%3E/states 2 https://janos.com.co/janos/
+/sanma 1 -
+/test 2 -
+/sanmarcosbms/Templates/Css/Bootstrap/bootstrap.min.css.map 34 -
+/Templates/Icons/energia-off.svg 1 -
+/boton/i18n.js 1 https://janos.com.co/boton/boton.html
+/boton/socket.io/socket.io.js 1 https://janos.com.co/boton/boton.html
+/sanmarcos/Views/index.php 2 https://janos.com.co/sanmarcos/Views/Panel_de_control.html
+/Templates/Icons/bombillo-off.svg 1 -
+/sanmarcos/public_html/sanmarcos/Templates/bootstrap-5.3.0/css/bootstrap.min.css 2 https://janos.com.co/sanmarcos/Views/Login.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+186.98.234.187 206 263 4445389 20230329014020
+190.242.112.67 187 622 63998050 20230331145704
+190.131.200.194 149 518 28218888 20230331151207
+181.143.203.186 103 146 3272694 20230330015819
+179.33.149.119 90 199 8991057 20230329224945
+181.52.36.56 75 164 8626485 20230331021735
+200.118.63.93 62 281 24903250 20230331085736
+190.84.119.129 39 143 7343185 20230331090455
+181.235.98.24 28 31 144920 20230311152221
+186.28.167.48 25 98 2960381 20230331090336
+161.10.100.46 19 86 4343632 20230331223342
+161.10.107.237 11 11 24352 20230320184900
+191.95.62.97 11 38 1226815 20230330021410
+181.54.62.129 10 51 3821608 20230327112627
+186.98.244.221 9 9 1177 20230322224415
+179.33.149.123 6 6 1221 20230304195546
+179.33.153.186 5 30 1860911 20230328211448
+51.159.103.13 4 4 49828 20230301035303
+93.119.227.91 3 3 37401 20230326172937
+186.98.237.146 3 4 6881 20230319134917
+34.209.222.247 2 2 7146 20230326122939
+39.110.218.101 2 2 7152 20230326170028
+179.33.155.245 2 4 234621 20230301223426
+186.98.238.231 2 2 1048 20230305182914
+34.220.18.202 1 1 3570 20230309121430
+52.12.121.234 1 1 3576 20230331123122
+54.191.37.242 1 1 3576 20230330121450
+54.191.251.170 1 1 3576 20230323123359
+34.216.126.40 1 1 3576 20230330121539
+54.71.60.38 1 1 3576 20230330122237
+52.40.123.252 1 1 12457 20230312121403
+35.89.22.180 1 1 3576 20230316120752
+34.213.51.50 1 1 3576 20230327124106
+54.189.158.206 1 1 3570 20230324120553
+34.220.204.236 1 1 3576 20230302122849
+35.167.132.176 1 1 3576 20230326121648
+199.116.118.242 1 1 3159 20230326170014
+35.92.59.5 1 1 3576 20230318124535
+54.212.195.137 1 1 3570 20230326121610
+35.89.140.196 1 1 12457 20230313121506
+35.87.31.92 1 1 3570 20230324120642
+35.90.190.239 1 1 3576 20230331124824
+35.89.27.27 1 1 12457 20230312121351
+18.236.254.153 1 1 3570 20230330121541
+35.86.91.171 1 1 3570 20230317121529
+35.91.69.65 1 1 3576 20230326122727
+34.215.61.1 1 1 3570 20230301124926
+52.25.145.54 1 1 3576 20230320122807
+35.90.214.142 1 1 12457 20230314123833
+35.86.139.165 1 1 3576 20230321120614
+35.88.222.222 1 1 3570 20230318124625
+34.209.204.99 1 1 3576 20230320122734
+35.90.176.17 1 1 12457 20230315125030
+54.148.227.206 1 1 3576 20230320122825
+34.222.143.98 1 1 12457 20230310122451
+34.212.228.33 1 1 3576 20230329122927
+34.222.153.23 1 1 3570 20230330122546
+52.37.250.158 1 1 12457 20230314122913
+34.212.16.21 1 1 3576 20230326122910
+52.88.75.217 1 1 12457 20230312121322
+51.159.101.199 1 1 12457 20230327115410
+54.190.223.190 1 1 12457 20230312121415
+35.93.20.237 1 1 3570 20230320122740
+35.91.46.120 1 1 3570 20230316121029
+54.190.152.136 1 1 3576 20230327124050
+54.189.78.95 1 1 3576 20230326120716
+34.209.232.29 1 1 12457 20230311120708
+34.208.88.183 1 1 12457 20230314122952
+54.202.142.21 1 1 3576 20230330121527
+35.87.200.5 1 1 12457 20230315124701
+191.156.60.31 1 1 4868 20230327174334
+35.86.149.179 1 1 3570 20230316120723
+35.90.66.114 1 1 3570 20230301124435
+52.12.30.9 1 1 3576 20230325122242
+54.188.190.17 1 1 3570 20230329122857
+161.10.123.98 1 2 17990 20230325074244
+35.93.155.157 1 1 12457 20230314122808
+34.213.43.147 1 1 3570 20230327124003
+35.88.190.99 1 1 3576 20230301125926
+35.92.163.97 1 1 3576 20230325122448
+52.39.121.19 1 1 3576 20230309122253
+51.159.214.50 1 1 12457 20230305042342
+35.92.189.213 1 1 3576 20230325122359
+54.244.32.62 1 1 12457 20230311120646
+44.203.63.11 1 1 3144 20230331025952
+54.149.173.54 1 1 12457 20230311121930
+18.246.38.230 1 1 3576 20230316121311
+35.90.214.107 1 1 3570 20230307121909
+35.86.121.128 1 1 3576 20230324120632
+35.93.129.250 1 1 3576 20230308122842
+161.129.163.109 1 1 3144 20230307022124
+34.140.19.50 1 1 3576 20230327072755
+54.218.240.150 1 1 3576 20230302122828
+54.190.195.236 1 1 3570 20230316120804
+35.163.2.167 1 1 3576 20230309122316
+54.245.74.212 1 1 3570 20230326122813
+54.218.107.84 1 1 12457 20230315125059
+35.87.218.156 1 1 12457 20230313121536
+34.221.35.190 1 1 12457 20230311121900
+54.187.158.234 1 1 3576 20230327124014
+35.91.192.70 1 1 3576 20230323121127
+34.222.73.162 1 1 3570 20230323121114
+18.237.40.145 1 1 3576 20230307121938
+54.189.254.57 1 1 12457 20230314122825
+35.87.218.220 1 1 12457 20230312121222
+204.199.126.110 1 1 12457 20230313175112
+34.217.194.185 1 1 3576 20230321120629
+34.221.73.232 1 1 3576 20230317122014
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20230301 11 13 295533 8
+20230302 2 2 7152 2
+20230304 10 12 236910 5
+20230305 3 3 13505 2
+20230307 3 3 10290 3
+20230308 1 1 3576 1
+20230309 3 3 10722 3
+20230310 1 1 12457 1
+20230311 32 35 194748 5
+20230312 5 5 62285 5
+20230313 3 3 37371 3
+20230314 5 5 62285 5
+20230315 7 10 299221 4
+20230316 5 5 17862 5
+20230317 2 3 127996 2
+20230318 2 2 7146 2
+20230319 3 4 6881 1
+20230320 15 15 38650 7
+20230321 8 8 15062 3
+20230322 30 30 33863 5
+20230323 14 14 16220 9
+20230324 61 68 262856 10
+20230325 89 101 417875 10
+20230326 74 215 2645967 16
+20230327 141 452 26602556 17
+20230328 143 220 4454330 13
+20230329 156 445 62635737 10
+20230330 144 425 22163059 20
+20230331 164 699 44354935 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 7
+2mn-5mn 12
+1h+ 15
+30s-2mn 9
+0s-30s 122
+5mn-15mn 11
+30mn-1h 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 41
+/sanmarcos/Views/Index.php 343 1708616 37 32
+/ 146 885750 101 89
+/janos/ 138 86546 19 29
+/sanmarcos/Templates/Images/Resources/descarga.jfif 65 204456 4 10
+/sanmarcos/Views/Login.html 59 30410 1 4
+/sanmarcosbms/Views/Index.html 48 140407 3 4
+/sanmarcos/Templates/Fonts/Figtree-Medium.ttf 33 685302 0 2
+/sanmarcos/Templates/Fonts/Figtree-Bold.ttf 32 680637 0 0
+/sanmarcos/Templates/Fonts/Figtree-SemiBold.ttf 32 664477 0 1
+/sanmarcos/ 30 2982 7 0
+/sanmarcos/Views/Login.php 25 29413 2 2
+/sanmarcos/Views/Index.html 23 65820 7 3
+/sanmarcos/Views/Panel_de_control.html 12 13035 0 0
+/sanmarcosbms/Templates/Fonts/Figtree-SemiBold.ttf 11 227920 0 0
+/sanmarcosbms/Templates/Images/Resources/descarga.jfif 11 53548 0 0
+/sanmarcosbms/Templates/Fonts/Figtree-Bold.ttf 11 233585 0 0
+/sanmarcosbms/Templates/Fonts/Figtree-Medium.ttf 11 227986 0 1
+/sanmarcos/Views/Estadisticas_especificas.html 10 34510 0 0
+/sanmarcos/Views/Estadisticas_generales.html 10 35517 0 1
+/sanmarcos/Views/Estadisticas_comparativas.html 8 15258 0 2
+/janos/control.php 8 2538 0 0
+/example/ 8 1964 5 4
+/web/ 7 1788 3 3
+/sanmarcos/Templates/Fonts/Figtree-Italic.ttf 6 128358 0 0
+/sanmarcos/Templates/Fonts/Figtree-Regular.ttf 6 125214 0 1
+/sanmarcosbms/ 5 358 2 0
+/boton/boton.html 1 1048 0 1
+/sanmarcos/Templates/fonts/Figtree-Regular.ttf 3 62607 0 1
+/sanmarcosbms/Views/Estadisticas_generales.html 1 4496 0 0
+/sanmarcos/Views/login.php 1 1176 0 0
+/sanmarcos/Views/Configuracion.html 3 4130 0 1
+/sanmarcos/Templates/fonts/Figtree-Italic.ttf 3 64179 0 0
+/sanmarcos/Templates/fonts/Figtree-SemiBold.ttf 3 62160 0 0
+/sanmarcos/Views/Usuario.html 2 4352 0 0
+/test/ 2 368 1 1
+/sanmarcos/Templates/fonts/Figtree-Medium.ttf 3 62178 0 0
+/sanmarcos/Views/Mantenimientos_de_equipos.html 4 7524 0 0
+/sanmarcos/Templates/fonts/Figtree-Light.ttf 3 58425 0 0
+/sanmarcos/Views/index.php 2 9046 0 0
+/sanmarcos/Templates/fonts/Figtree-Bold.ttf 3 63705 0 0
+/sanmarcos/Views/Mantenimientos_generales.html 5 9435 0 0
+END_SIDER

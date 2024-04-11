@@ -1,0 +1,540 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202312 will be lost/reset.
+# Last config file used to build this data file was /home/janoscom/tmp/awstats/ssl/awstats.janos.com.co.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2688                
+POS_VISITOR 9446                
+POS_DAY 14352               
+POS_DOMAIN 3485                
+POS_LOGIN 3879                
+POS_ROBOT 4034                
+POS_WORMS 4517                
+POS_EMAILSENDER 4648                
+POS_EMAILRECEIVER 4791                
+POS_SESSION 15139               
+POS_SIDER 15352               
+POS_FILETYPES 4926                
+POS_DOWNLOADS 5189                
+POS_OS 5314                
+POS_BROWSER 5623                
+POS_SCREENSIZE 6335                
+POS_UNKNOWNREFERER 6409                
+POS_UNKNOWNREFERERBROWSER 6629                
+POS_ORIGIN 6780                
+POS_SEREFERRALS 6920                
+POS_PAGEREFS 7064                
+POS_SEARCHWORDS 7212                
+POS_KEYWORDS 7364                
+POS_MISC 2351                
+POS_ERRORS 7423                
+POS_CLUSTER 3735                
+POS_SIDER_404 7578                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240101033552 4 639 15380918508849
+FirstTime 20231201072051
+LastTime 20231231072126
+LastUpdate 20240101071535 4 0 3 0 0
+TotalVisits 184                 
+TotalUnique 121                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 123                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+AddToFavourites 0 32 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 29507 3 5 368319
+1 2 3 17598 3 7 19252
+2 0 0 0 6 8 21735
+3 2 2 5094 4 4 16197
+4 1 2 14866 10 17 28796
+5 86 123 7330198 11 27 34662
+6 11 15 1556199 6 11 22656
+7 44 79 4134303 15 18 34136
+8 78 119 3100503 11 12 7038
+9 23 35 2134911 9 13 719956
+10 102 129 3752440 18 24 622929
+11 154 210 6674940 12 18 319732
+12 159 192 6415057 15 22 561297
+13 96 184 12561260 15 21 1777675
+14 484 664 25188477 40 47 126972
+15 345 453 12599138 31 38 23534
+16 99 138 7299153 17 29 1045543
+17 37 46 2189693 6 14 13171
+18 45 63 4722707 17 24 17396
+19 59 74 2122793 11 18 24040
+20 24 27 178676 14 17 19226
+21 58 78 2625377 12 18 31445
+22 26 37 2295480 6 10 18156
+23 10 13 833818 3 6 4958
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+co 1849 2563 96577935
+us 68 85 6267831
+se 8 13 82516
+fr 7 7 62455
+ro 4 4 35684
+eu 3 3 26769
+nl 2 2 5469
+dk 2 2 17842
+gr 2 2 5472
+ca 2 2 5471
+ar 1 3 760895
+vg 1 3 760895
+hn 0 1 12133
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bingbot/ 34 41519 20231231184952 19
+Googlebot/ 12 16620 20231227014740 5
+unknown 11 286 20231228154416 11
+no_user_agent 4 35696 20231214065622 0
+survey 3 26769 20231208003136 0
+Apache\-HttpClient/ 2 5467 20231210045001 0
+facebookexternalhit/ 2 8943 20231217075947 1
+Go\-http\-client/ 2 5464 20231217073808 0
+Googlebot\-Image/ 2 24266 20231227014730 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+js 187 551085 0 0
+png 365 37988976 0 0
+jpeg 28 381584 0 0
+php 6 214723 0 0
+mp4 6 3160821 0 0
+jpg 103 45228427 0 0
+css 15 202607 0 0
+html 444 1174934 0 0
+svg 37 1111845 0 0
+Unknown 1499 14606365 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/gallery/pexels-rostislav-uzunov-10613972%20(1)-ts1673352429.mp4 0 5 3160821
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+android 11 5
+androidmarshmallow 133 119
+macosx 2 2
+macosx15 224 166
+ios_iphone 9 3
+android10 172 84
+ios_ipad 1 1
+macosx13 23 9
+Unknown 9 8
+linux 145 106
+win8.1 2 2
+androidoreo 1 1
+macosx12 1 1
+linuxubuntu 7 7
+androidnougat 1 1
+win10 1954 1434
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 32
+Unknown 3 2
+chrome83.0.4103.97 22 22
+opera105.0.0.0 82 65
+safari13.1.2 23 9
+chrome96.0.4664.110 6 6
+chrome107.0.0.0 5 3
+safari16.1 6 2
+firefox115.0 7 7
+chrome108.0.0.0 24 24
+chrome59.0.3071.125 1 1
+chrome105.0.0.0 12 7
+safari11.0.3 1 1
+chrome81.0.4044.138 1 1
+chrome68.0.3440.106 18 6
+firefox120.0 64 20
+chrome100.0.4896.160 1 1
+edge16 1 1
+chrome117.0.0.0 146 137
+chrome120.0.0.0 789 550
+safari15.5 3 1
+chrome115.0.0.0 18 9
+chrome118.0.0.0 64 40
+safari6.0 1 1
+chrome66.0.3359.181 10 10
+chrome117.0.5938.62 3 1
+chrome38.0.2125.111 1 1
+chrome113.0.0.0 1 1
+chrome119.0.0.0 1296 964
+chrome95.0.4638.54 1 1
+mozilla 6 6
+chrome116.0.0.0 78 48
+chrome103.0.5060.134 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WhatsApp/2.23.20.0 20231202145144
+WinHTTP_Example/1.0 20231204214157
+Mozilla/5.0_(compatible;_BuilderPublishVerifier) 20231220133351
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.23.20.0 20231202145144
+WinHTTP_Example/1.0 20231204214157
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 227 235
+From1 1 1
+From2 0 0
+From3 0 0
+From4 1721 2459
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 18 2385051
+404 123 243435
+500 7 3027540
+302 155 25685
+301 5 0
+419 16 32080
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 42
+/imagenes/1700071275.png 5 https://www.janos.com.co/listahoteles
+/radio.php 1 www.google.com
+/sanmarcos/Views/Index.php 5 -
+/.well-known/security.txt 1 -
+/Templates/Css/Bootstrap/bootstrap.min.css 2 -
+/main 1 -
+/sitemap.xml.gz 4 -
+/ads.txt 3 http://janos.com.co/ads.txt
+/Templates/Css/fonts.css 2 -
+/sanmarcos/Views/Mantenimientos_de_equipos.php 3 -
+/humans.txt 3 http://janos.com.co/humans.txt
+/wp-includes/wlwmanifest.xml 1 -
+/citas/get_data.php 1 https://janos.com.co/citas/index.html
+/Consumos-aire 1 -
+/misc/ajax.js 1 -
+//st.php 1 http://janos.com.co//st.php
+/sitemaps.xml 6 -
+/view-source: 1 -
+/sitemap.txt 2 -
+//class.api.php 1 http://janos.com.co//class.api.php
+//my1.php 1 http://janos.com.co//my1.php
+/sanmarcos/Templates/Images/Resources/estadistica-referencia.png 2 -
+/wp-includes/css/buttons.css 1 http://janos.com.co/wp-includes/css/buttons.css
+/smart 2 -
+/sitemap.xml 2 -
+//wp-head.php 1 http://janos.com.co//wp-head.php
+/Templates/Css/styles.css 2 -
+/administrator/index.php 1 -
+/sanmarcos/Views/Estadisticas_especificas.php 3 -
+/sanmarcos/Templates/Icons/energia-on.svg 2 -
+/assets/img/recurso1.png 13 https://www.janos.com.co/ocupacion
+/simple.php 1 -
+/sanmarcos/Views/Configuracion.php 3 -
+/sitemap_index.xml 2 -
+/login 13 https://www.janos.com.co/
+/url('https://fonts.googleapis.com/css2 5 -
+/... 15 https://janos.com.co/habitacion2
+/sanmarcos/Views/Panel_de_control.php 2 -
+/sanmarcos/Templates/Icons/bombillo-on.svg 2 -
+/citas/index.html 2 https://janos.com.co/citas/index.html
+//cjfuns.php 1 http://janos.com.co//cjfuns.php
+/citas 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 123
+181.63.26.17 794 1010 23734840 20231228085454
+190.131.200.194 283 399 11627861 20231205153127
+186.171.2.234 101 111 2708854 20231204123411
+152.201.171.114 95 157 8979817 20231203213522
+181.143.203.186 73 118 5175275 20231206101008
+186.98.241.247 62 89 3536887 20231206094758
+179.33.150.161 60 98 5696128 20231221195919
+191.95.28.165 50 58 1512275 20231201121103
+186.85.65.92 41 76 6068312 20231202151540
+191.95.17.74 40 41 856232 20231204145817
+191.95.1.236 28 30 284052 20231206113154
+186.169.236.36 27 44 1655470 20231211115736
+179.33.154.228 24 44 1825154 20231216173715
+200.91.196.203 21 34 264207 20231206154531
+186.169.142.226 20 20 175169 20231206104542
+186.116.19.106 18 23 1229262 20231223184001
+186.98.234.180 17 46 2886285 20231202135430
+186.169.190.23 15 30 2037760 20231202190208
+186.169.134.72 13 18 2014575 20231201123522
+191.95.0.234 12 27 1612563 20231205150909
+152.200.176.125 9 12 2290885 20231204143829
+186.169.247.1 7 7 52465 20231206120417
+186.98.245.189 6 6 25074 20231222122542
+186.169.139.237 6 22 3317977 20231220161547
+186.169.213.6 6 7 661093 20231205151717
+191.95.22.67 1 3 760895 20231215144437
+51.254.49.97 1 1 8917 20231221235533
+170.247.221.56 1 1 2736 20231208193348
+54.201.90.99 1 1 2735 20231208054610
+35.92.75.25 1 1 2733 20231226053328
+191.95.21.203 4 9 872218 20231227131729
+34.216.146.107 1 1 2733 20231226053455
+54.208.25.60 0 1 12133 
+93.158.92.13 1 1 2734 20231226065516
+89.47.161.179 4 4 35684 20231226123538
+92.114.63.9 1 3 760895 20231221055447
+68.183.128.243 1 1 2731 20231221072240
+68.183.78.57 1 1 2732 20231223053632
+159.223.172.94 1 1 2732 20231231072126
+188.165.87.104 1 1 8917 20231221194623
+54.188.202.53 1 1 2729 20231202054054
+35.180.89.60 1 3 760896 20231224165414
+146.190.143.14 1 1 2733 20231223072409
+34.208.57.170 1 1 2735 20231208054534
+35.90.157.72 1 3 761275 20231205055727
+54.202.86.218 2 2 5466 20231229060103
+168.151.120.238 1 3 760895 20231221060533
+178.128.169.181 1 1 2737 20231212120524
+185.6.11.146 1 1 2728 20231206182659
+35.92.189.195 1 1 2732 20231229053003
+54.184.208.87 2 2 5459 20231202055240
+35.87.83.167 1 1 2733 20231214054037
+93.119.227.19 3 3 26769 20231203002517
+159.89.170.234 1 1 2732 20231211091832
+178.128.152.101 1 1 2735 20231212142437
+35.163.5.133 1 1 2733 20231208054502
+51.254.49.98 1 1 8917 20231221213313
+93.158.91.10 1 2 14867 20231201072051
+51.254.49.106 1 1 8927 20231221230802
+157.230.28.245 1 1 2734 20231201092725
+5.133.192.160 1 2 14866 20231219230546
+35.162.140.140 2 2 5461 20231226053207
+54.191.228.106 1 1 2734 20231205053617
+142.93.153.142 1 1 2739 20231226063713
+186.169.138.16 5 9 1528853 20231206105403
+188.165.87.102 1 1 8925 20231221194332
+52.27.101.14 1 1 2732 20231205053539
+15.188.207.70 1 1 2356 20231224165037
+34.217.83.79 1 1 2733 20231217054122
+54.213.242.146 1 1 2733 20231214054146
+191.95.26.142 2 4 763253 20231221122230
+167.71.129.47 1 1 2733 20231227081452
+100.20.59.237 1 3 761269 20231220055757
+5.133.192.146 1 2 14864 20231226013811
+198.252.59.39 1 1 2731 20231212235753
+195.181.243.11 2 2 17842 20231222143259
+186.171.16.177 2 7 1448254 20231212070659
+54.245.63.65 1 3 761269 20231202055243
+191.102.163.161 0 1 12133 
+137.184.62.9 1 1 2733 20231229072211
+52.37.38.3 2 2 5463 20231205055720
+191.95.48.66 1 3 761267 20231202174149
+198.199.66.89 1 1 2730 20231225084643
+54.201.230.171 1 1 2734 20231223055359
+93.158.90.67 1 1 2733 20231213105826
+181.78.85.181 1 3 760895 20231221093400
+199.244.88.225 1 1 2731 20231214101233
+35.89.160.18 1 1 2736 20231214054036
+35.92.212.150 2 2 5467 20231220055932
+51.254.49.96 1 1 8925 20231221220232
+54.213.73.142 1 1 2732 20231229053001
+188.165.87.103 1 1 8927 20231221193933
+54.203.8.242 1 1 2733 20231220055755
+35.92.228.104 1 3 761269 20231229060107
+35.93.92.21 1 1 8917 20231211151835
+35.92.23.125 1 1 2732 20231217054422
+5.133.192.131 1 2 14862 20231213174613
+52.42.111.167 1 1 2730 20231220055848
+143.198.12.249 1 1 2734 20231207110508
+138.68.65.247 1 1 2731 20231209064129
+34.220.233.169 1 3 761273 20231223055403
+54.234.101.243 1 1 2358 20231216031515
+209.127.109.99 1 1 2731 20231210053213
+167.99.94.209 1 1 2732 20231213072357
+157.245.109.116 1 1 2738 20231223005143
+35.91.23.137 1 1 2734 20231208054459
+159.203.46.29 1 1 2734 20231209011234
+138.197.173.190 1 1 2734 20231215072256
+44.204.0.141 1 1 2733 20231210045005
+170.254.179.20 1 1 0 20231208193347
+34.219.15.153 1 1 2735 20231217054627
+199.244.88.221 1 1 2732 20231226124008
+134.122.112.251 1 1 2734 20231203085141
+18.236.66.209 1 3 761268 20231226053211
+52.39.243.229 1 1 2733 20231202054055
+93.158.91.24 1 2 14862 20231207121546
+134.122.10.224 1 1 2732 20231205075831
+165.227.38.226 1 1 2732 20231219083512
+188.166.64.49 1 1 2736 20231209031340
+190.8.177.64 6 6 214723 20231220133351
+188.166.13.250 1 1 2733 20231217080741
+13.36.194.102 1 1 2358 20231224165054
+54.245.199.108 1 1 2732 20231226053410
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20231201 207 327 15005999 8
+20231202 364 527 22445368 18
+20231203 64 98 4655891 6
+20231204 444 502 11600863 14
+20231205 141 219 9942996 11
+20231206 125 150 2921087 9
+20231207 2 3 17596 2
+20231208 6 7 25806 6
+20231209 3 3 8201 3
+20231210 2 3 17597 2
+20231211 29 46 1667119 3
+20231212 5 10 1456457 4
+20231213 89 119 2466349 7
+20231214 73 79 688283 7
+20231215 2 4 763629 2
+20231216 25 45 1827512 3
+20231217 24 39 1575769 6
+20231218 19 24 169224 2
+20231219 25 32 221891 4
+20231220 37 103 17038742 9
+20231221 90 134 5850706 17
+20231222 22 22 139679 7
+20231223 98 108 2948929 11
+20231224 3 5 765610 3
+20231225 1 1 2730 1
+20231226 12 15 815838 10
+20231227 5 10 874951 2
+20231228 25 46 1089702 1
+20231229 6 8 774932 5
+20231231 1 1 2732 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 10
+15mn-30mn 10
+30mn-1h 11
+2mn-5mn 17
+0s-30s 114
+5mn-15mn 10
+1h+ 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 440 1165965 159 149
+/Consumos 276 2698230 0 1
+/smart 255 2089360 6 6
+/visualizacion 165 1730283 0 0
+/habitacion 160 2119569 1 0
+/Consumos-aire 112 1117947 2 5
+/Costos 95 1053422 1 9
+/inicio 82 482413 0 2
+/Consumos-termostato 66 653166 0 2
+/Consumos-tv 64 631688 0 0
+/Costos-view 50 497680 0 0
+/listausuarios 45 400671 0 1
+/Consumos-iluminacion 41 410748 0 1
+/login 21 49493 10 2
+/habitacion2 15 182923 0 0
+/ocupacion 11 128648 1 3
+/listahabitaciones 8 69313 2 1
+/listadispositivos 7 58934 0 1
+/crearusuarios 6 54942 0 0
+/sitepro/verify.php 6 214723 1 1
+/listahoteles 5 45496 0 0
+/profile 5 48424 1 0
+/listapisos 4 35110 0 0
+/Contactos/ 3 7034 0 0
+/Reportes 2 15582 0 0
+/Productos/ 1 1935 0 0
+/Mantenimiento 1 7827 0 0
+/Notificaciones 1 7695 0 0
+/crearpisos 2 16801 0 0
+END_SIDER

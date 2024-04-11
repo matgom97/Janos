@@ -1,0 +1,104 @@
+Return-Path: <josejavierz@gmail.com>
+Delivered-To: jzapata@janos.com.co
+Received: from eliezer.colombiahosting.com.co
+	by eliezer.colombiahosting.com.co with LMTP
+	id UExuHMyZemT5pzMAa8bRMQ
+	(envelope-from <josejavierz@gmail.com>)
+	for <jzapata@janos.com.co>; Fri, 02 Jun 2023 20:39:24 -0500
+Return-path: <josejavierz@gmail.com>
+Envelope-to: jzapata@janos.com.co
+Delivery-date: Fri, 02 Jun 2023 20:39:24 -0500
+Received: from mail-lj1-f182.google.com ([209.85.208.182]:59829)
+	by eliezer.colombiahosting.com.co with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <josejavierz@gmail.com>)
+	id 1q5GEl-00ECYl-2f
+	for jzapata@janos.com.co;
+	Fri, 02 Jun 2023 20:39:24 -0500
+Received: by mail-lj1-f182.google.com with SMTP id 38308e7fff4ca-2af2c35fb85so36823311fa.3
+        for <jzapata@janos.com.co>; Fri, 02 Jun 2023 18:39:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1685756321; x=1688348321;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=U5LWk8fwSEhbEAJm6u9O+pZ0N5LGma0WMbjoudLttuU=;
+        b=qsSYMUhLxb0ubl2iUoCaQ1UzD4PM4n11/nnEh4tl6fuTxma+dH/fZHQYPQcH76s3Be
+         UVrpzcTWEvdf6Yfx1SwVGZ5ER/ewAzZ7ROWElbS8LhIlZ2luXEgfFKEF1M+4HbZ2zBcx
+         sx/H9gEwJXOilfYbZzquX4inFK5mq/bdtw8/Q/qPZMYzlq1MF62S8gtfDl07EtSVoDKg
+         ob5q6S6NHVgJ9knDrQZ6Ue4Mh39B+extjOCd+EHyw+4KHOHFXPdQE4gHNOA48StZFCk2
+         L2RF900OBvcvLAa0HmaOEKpOijHrqEy3siNWCcDMGF+ztG8F3dhh+NJvLEl0KDhZxtzd
+         QMbQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685756321; x=1688348321;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=U5LWk8fwSEhbEAJm6u9O+pZ0N5LGma0WMbjoudLttuU=;
+        b=aO1msUEdjIs3T9LsCMEniNpSAzmiM69Zj5cux7XWFzDER7TDUS/1X3E4KIDk+U6SL/
+         0ooT7BX4sf/XMbT3XudbTxwCjFJDLu7rEMxyXotMbbWNVzUCYpiujvFC3OYLGMdI+jYv
+         sFfY7wJqzBUmPIpsqbe7GIsGM/kqt9kYEo+UtBdRW5+WDAdsGWDIA04GSoMBIfSfRQvM
+         ATa+WHs8JI1lLyZoftHYiXxQdtjR2f+TLFBdiMsi2aQujrRqG9rxQ9XljOzjeh0u6ZKw
+         PMxPg4DrWO/jzIqqvcLFSIaLkqibqHpxawjR1Rnx69F06zOr97q9z/Br4GV+CbUC2p9w
+         whYg==
+X-Gm-Message-State: AC+VfDxwgYjiEXjjnqFwuPoxIEk4rbKolf2/Hx1OHZy749hPMvn3GhZr
+	oo5KwW8yr5oG7cArkNPzqznlnDB5/ckFDI17hrsI/GIZ
+X-Google-Smtp-Source: ACHHUZ6uMu7d9XVdV/bWwDv4k6KvxGQhtBLYddwQ2B6mrljRREDMiG3IzSNQQHpZpDVhsbbsT6BzAVq0ZpnK8m+1PF4=
+X-Received: by 2002:a2e:9d44:0:b0:2ad:1ba2:eff3 with SMTP id
+ y4-20020a2e9d44000000b002ad1ba2eff3mr916905ljj.20.1685756320798; Fri, 02 Jun
+ 2023 18:38:40 -0700 (PDT)
+MIME-Version: 1.0
+From: Jose Javier Zapata <josejavierz@gmail.com>
+Date: Fri, 2 Jun 2023 20:38:37 -0500
+Message-ID: <CAKc0JaFxdvCkbHpgdtO-qmECpOdWLrhFMNPyEu33vL5mUAjioQ@mail.gmail.com>
+Subject: Prueba
+To: jzapata@janos.com.co
+Content-Type: multipart/alternative; boundary="000000000000addaff05fd2fbaaf"
+X-Spam-Status: No, score=-1.1
+X-Spam-Score: -10
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "eliezer.colombiahosting.com.co",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Este es un correo de Pruebas -- Ing. José Javier Zapata Polo
+    Esp. en Desarrollo de Software TP 08255165032 Cel 301 385 68 27 Este es un
+    correo de Pruebas -- Ing. José Javier Zapata Polo Esp. en Desarrollo de
+   Software TP 08255165032 Cel 301 385 68 27 
+ Content analysis details:   (-1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [josejavierz[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.5 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.5 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000addaff05fd2fbaaf
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Este es un correo de Pruebas
+--=20
+_______________________________
+Ing. Jos=C3=A9 Javier Zapata Polo
+Esp. en Desarrollo de Software
+TP 08255165032
+Cel 301 385 68 27
+
+--000000000000addaff05fd2fbaaf
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br clear=3D"all"><div>Este es un correo de Pruebas</div><=
+span class=3D"gmail_signature_prefix">-- </span><br><div dir=3D"ltr" class=
+=3D"gmail_signature" data-smartmail=3D"gmail_signature">___________________=
+____________<br>Ing. Jos=C3=A9 Javier Zapata Polo<br>Esp. en Desarrollo de =
+Software<br>TP 08255165032<br>Cel 301 385 68 27<br></div></div>
+
+--000000000000addaff05fd2fbaaf--

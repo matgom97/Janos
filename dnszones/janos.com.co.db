@@ -1,0 +1,19 @@
+; cPanel first:108.0.11 (update_time):1711501144 Cpanel::ZoneFile::VERSION:1.3 hostname:eliezer.colombiahosting.com.co latest:118.0.4
+; Zone file for janos.com.co
+$TTL 14400
+janos.com.co.	86400	IN	SOA	ns1.colombiahosting.com.	sysadmin.colombiahosting.com.co.	(						2024032700						3600						1800						1209600						86400	)
+janos.com.co.	86400	IN	NS	ns1.colombiahosting.com.
+janos.com.co.	86400	IN	NS	ns2.colombiahosting.com.
+janos.com.co.	86400	IN	NS	ns3.colombiahosting.com.
+janos.com.co.	86400	IN	NS	ns4.colombiahosting.com.
+janos.com.co.	14400	IN	A	190.8.176.74
+janos.com.co.	14400	IN	MX	0	mail.janos.com.co.
+mail	14400	IN	CNAME	janos.com.co.
+www	14400	IN	CNAME	janos.com.co.
+ftp	14400	IN	A	190.8.176.74
+_dmarc	14400	IN	TXT	"v=DMARC1\;p=quarantine\;sp=none\;adkim=r\;aspf=r\;pct=100\;fo=0\;rf=afrf\;ri=86400\;rua=mailto:kobemaster\@janos.com.co"
+janos.com.co.	14400	IN	TXT	"v=spf1 include:_spf.colhost.com include:md02.com ~all"
+default._domainkey	14400	IN	TXT	"v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt6CFPnoFj6IkrXoikNsh4YhmumRHBw2z1myQyG0q6Q5X+jEHbLFMD5B2/ZvVZ5BXgpoJQ4Cjh0g9543j+SJV+3H0ajiax8BJ6q5JUlRQqgfpxfTYmTbRjHA1wWxBZXVPR+WxbQPTdmJbvP2QD/4LjlmuzKRJ6JorujtIBcpWHE3jRNlOTy+6y66Ig8Hhmw4PP" "vpVkZ8A5p9eqPotib89v9kGH0+M1q+ZyqWwqT8Heje1WlIHjPynsYhPj3SH6xK3bzzDVbi8gk1SfDI5aTmKLiGOuIwjLKc2Cxx8bPlKfSSIeSwmqB+U/VW/O4p6+pNNY1yXkA495HKEmHOhcnZ2iwIDAQAB\;"
+_cpanel-dcv-test-record	14400	IN	TXT	"_cpanel-dcv-test-record=C6klS7t53hVVHu9ijx8QfmOC0i1guyNb1fsLQIVsu4VP_gtt3b1rf_YJIAUJu4Ar"
+janos.com	14400	IN	TXT	"google-site-verification=ggphGKe6C0r_avqs7MyIxgPOIA_JBgB_HjH0kI5y3TQ"
+janos.com.co.	14400	IN	TXT	"google-site-verification=ggphGKe6C0r_avqs7MyIxgPOIA_JBgB_HjH0kI5y3TQ"

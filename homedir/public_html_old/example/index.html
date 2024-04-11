@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BMS Janos</title>
+</head>
+
+<body>
+
+<h1 align="center">BMS Janos 1.0</h1>
+<div id="image" align="center" style="background-color:#ffffff">
+<img id="myImage" onclick="changeImage()" src="images/light_on.jpeg" width="502" height="376" />
+<p>Click en la bombilla para encenderla/apagarla.</p>
+</div>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("off")) {
+        image.src = "images/light_on.jpeg";
+    } else {
+        image.src = "images/light_off.jpeg";
+    }
+}
+</script>
+
+</body>
+</html>

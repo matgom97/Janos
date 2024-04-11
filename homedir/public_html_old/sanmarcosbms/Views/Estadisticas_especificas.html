@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Index</title>
+	<link media="screen" rel="stylesheet" type="text/css" href="../Templates/Css/styles.css">
+	<link media="screen" rel="stylesheet" type="text/css" href="../Templates/Css/fonts.css">
+	<link media="screen" rel="stylesheet" type="text/css" href="../Templates/Css/Bootstrap/bootstrap.min.css">
+	<script src="../Templates/Js/bootstrap.min.js"></script>
+	<script src="../Templates/Js/jquery.min.js"></script>
+</head>
+
+<body class="Home">
+	<div class="container d-flex">
+		<main class="">
+			<div class="d-flex flex-column flex-shrink-0 overflow-hidden aside br-rad-15" style="width: 306px;">
+				<div class=" p-3 bg-dt">
+					<a href="/" class="d-flex align-items-center text-white text-decoration-none">
+						<img class="logo-aside" src="../Templates/Images/Resources/logo-JMS-JANOS.png">
+					</a>
+				</div>
+				<div class="bg-white p-10" id="MenuAside">
+					<ul class="nav nav-pills flex-column mb-auto color-bms mt-10" role="tablist">
+						<li class="nav-item" role="presentation">
+							<a id="Menu_Panel_de_control" type="button" class="nav-item nav-link drop" href="Panel_de_control.html">
+								Panel de Control
+							</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a id="Menu_Dispositivos" type="button" class="nav-item nav-link drop" href="Index.html">
+								Smart Hotel
+							</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a id="Menu_Estadisticas" class="nav-item nav-link drop hij active" type="button" data-bs-toggle="collapse" href="#CollapseEstadisticas" aria-expanded="true">
+								Estadísticas
+							</a>
+							<ul class="collapse show" id="CollapseEstadisticas" style="">
+								<li class="nav-item">
+									<a class="nav-link drop" type="button" id="Menu_btnGenerales1" href="Estadisticas_generales.html">
+										Generales
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link drop active" type="button" id="Menu_btnEspecificos1">
+										Específicos
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link drop" type="button" id="Menu_btnComparativos1" href="Estadisticas_comparativas.html">
+										Comparativos
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a id="Menu_Mantenimientos" class="nav-item nav-link drop hij" data-bs-toggle="collapse" type="button" href="#CollapseMantenimientos" aria-expanded="false">
+								Mantenimiento
+							</a>
+							<ul class="collapse" id="CollapseMantenimientos" style="">
+								<li class="nav-item">
+									<a class="nav-link drop" type="button" id="Menu_btnGenerales2" href="Mantenimientos_generales.html">
+										Generales
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link drop" type="button" id="Menu_btnEquipos2">
+										Equipos
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a id="Menu_Usuario_E_Informacion" class="nav-item nav-link drop" type="button" href="Usuario.html">
+								Usuario e información de la cuenta
+							</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a id="Menu_Configuracion" class="nav-item nav-link drop" type="button" href="Configuracion.html">
+								Configuración
+							</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a id="" class="nav-link exit" data-bs-toggle="pill" role="tab" aria-selected="true">
+								Salir
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+		<div class="content">
+			<div class="br-rad-15 bg-or overflow-hidden banner p-12">
+				<div class="img-banner"></div>
+				<div class="banner-contentinfo">
+					<div style="padding: 0 15px;">
+						<div class="" style="display: flex;flex-direction: row;align-items: center;">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="buscar" aria-label="search" aria-describedby="basic-addon1">
+								<span class="bg-white input-group-text" id="basic-addon2"><img src="../Templates/Icons/search.svg"></span>
+							</div>
+							<div class="dataTime">
+								<div style="border-right:1px solid #17112d;">
+									<span class="" id="basic-addon2"><img src="../Templates/Icons/sun.svg"></span>
+									<span>45º</span>
+								</div>
+								<div style="">
+									<span class="" id="basic-addon2"><img src="../Templates/Icons/clock.svg"></span>
+									<span id="MyClockDisplay" class="clock" onload="showTime()"></span>
+								</div>
+							</div>
+						</div>
+						<div class="Welcome-Banner">
+							Bienvenido Hotel San Marcos
+						</div>
+						<div>
+							<button class="bg-dt border-0 btn-newuser">
+								ID_usuario /operativo/admin
+							</button>
+						</div>
+
+					</div>
+					<div class="logo-hotel">
+						<div>
+							<img src="../Templates/Images/Resources/descarga.jfif">
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="content-principal tab-content" id="Principal">
+
+				<div id="Dispositivos" class="chilContents tab-pane fade show active" role="tabpanel" aria-labelledby="Menu_Dispositivos" tabindex="0">
+					<section class="navsSwitch">
+						<div class="textSeeFor">
+							ver por:
+						</div>
+						<div class="seeFor" style="width: 100%;">
+							<ul class="nav nav-pills firstnav bg-dt nav overflow-hidden" id="pills-tabMenu" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link menuSuperiorDispo active" id="pills-Tab1-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="true">
+										<div>Habitación</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link menuSuperiorDispo" id="pills-Tab2-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">
+										<div>Cuartos Técnicos</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link menuSuperiorDispo" id="pills-Tab3-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">
+										<div>Cuartos de Servicio</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link menuSuperiorDispo" id="pills-Tab4-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">
+										<div>Zonas sociales</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link menuSuperiorDispo" id="pills-Tab5-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">
+										<div>Recepción</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link menuSuperiorDispo" id="pills-Tab6-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">
+										<div>Cocina</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link menuSuperiorDispo" id="pills-Tab7-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">
+										<div>Lavandería</div>
+									</button>
+								</li>
+							</ul>
+
+							<ul class="nav nav-pills navFlow overflow-hidden" id="pills-tabPisoMenu" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-TabPiso-tab" data-bs-toggle="pill" data-bs-target="#pills-TabPiso" type="button" role="tab" aria-controls="pills-TabPiso" aria-selected="true">
+										<div class="selectPiso">Piso 1</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link active" id="pills-TabPiso-tab" data-bs-toggle="pill" data-bs-target="#pills-TabPiso" type="button" role="tab" aria-controls="pills-TabPiso" aria-selected="false">
+										<div class="selectPiso">Piso 2</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-TabPiso-tab" data-bs-toggle="pill" data-bs-target="#pills-TabPiso" type="button" role="tab" aria-controls="pills-TabPiso" aria-selected="false">
+										<div class="selectPiso">Piso 3</div>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-TabPiso-tab" data-bs-toggle="pill" data-bs-target="#pills-TabPiso" type="button" role="tab" aria-controls="pills-TabPiso" aria-selected="false">
+										<div class="selectPiso">Piso 4</div>
+									</button>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+					<section class="tab-content" id="pills-tabContent">
+						<section class="tab-pane fade show active" id="pills-Tab1" role="tabpanel" aria-labelledby="pills-TabIlumin-tab" tabindex="0">
+							<h3 class="tittles-bms"><span id="idpiso">Piso 2</span>: <span id="titleh3g">Planta General</span> </h3>
+							<div class="containerImagFlow" style="">
+								<div>
+									<img src="../Templates/Images/Resources/hotel.png">
+								</div>
+								<div style="margin-left: -5px; display: flex; max-width: 460px;">
+
+									<img src="../Templates/Images/Mapa-piso-2/mapa-piso-2.png">
+									<div id="areaselector" class="img3"> </div>
+								</div>
+								<div class="">
+									<ul class="selecroom nav nav-pills flex-column mb-auto color-bms mt-10" id="pills-tabMenu" role="tablist">
+										<li class="" role="presentation">
+											<button class="btnselectorroom nav-link drop text-min" data-bs-toggle="pill" data-bs-target="#pills-Tab1" type="button" role="tab" aria-controls="pills-Tab1" aria-selected="true">
+												Habitación <span id="span1">201</span>
+											</button>
+										</li>
+										<li class="" role="presentation">
+											<button class="btnselectorroom nav-link drop text-min" data-bs-toggle="pill" data-bs-target="#pills-Tab1" type="button" role="tab" aria-controls="pills-Tab1" aria-selected="true">
+												Habitación <span id="span2">202</span>
+											</button>
+										</li>
+										<li class="" role="presentation">
+											<button class="btnselectorroom nav-link drop text-min active" data-bs-toggle="pill" data-bs-target="#pills-Tab1" type="button" role="tab" aria-controls="pills-Tab1" aria-selected="true">
+												Habitación <span id="span3">203</span>
+											</button>
+										</li>
+										<li class="" role="presentation">
+											<button class="btnselectorroom nav-link drop text-min" data-bs-toggle="pill" data-bs-target="#pills-Tab1" type="button" role="tab" aria-controls="pills-Tab1" aria-selected="true">
+												Habitación <span id="span4">204</span>
+											</button>
+										</li>
+										<li class="" role="presentation">
+											<button class="btnselectorroom nav-link drop text-min" data-bs-toggle="pill" data-bs-target="#pills-Tab1" type="button" role="tab" aria-controls="pills-Tab1" aria-selected="true">
+												Habitación <span id="span5">205</span>
+											</button>
+										</li>
+										<li class="" role="presentation">
+											<button class="btnselectorroom nav-link drop text-min" data-bs-toggle="pill" data-bs-target="#pills-Tab1" type="button" role="tab" aria-controls="pills-Tab1" aria-selected="true">
+												Habitación <span id="span6">206</span>
+											</button>
+										</li>
+										<li class="" role="presentation">
+											<button class="btnselectorroom nav-link drop text-min" data-bs-toggle="pill" data-bs-target="#pills-Tab1" type="button" role="tab" aria-controls="pills-Tab1" aria-selected="true">
+												Habitación <span id="span7">207</span>
+											</button>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</section>
+					</section>
+
+					<section>
+						<h3 class="tittles-bms">
+							<img src="../Templates/Images/Resources/habitacion.svg">Estadísticas específicas habitación <span id="selectHab">203</span>
+						</h3>
+
+						<div class="tab-content" id="pills-tabContent">
+							<div id="divconstruction" class="imgConstruction tab-pane fade" role="tabpanel" aria-labelledby="pills-TabConstruction" tabindex="0">
+								<img src="../Templates/Images/Resources/imagen-construccion.png">
+							</div>
+
+							<div id="pills-TabEstadis" class="tab-pane fade show active" role="tabpanel" aria-labelledby="pills-TabEstadis-tab" tabindex="0">
+								<p class="text-p">
+									Las estadísticas especificas muestran el estado de consumo eléctrico por habitación y por aparato eléctrico.
+								</p>
+								<hr>
+								<!-- ------------------------------------------------------------- -->
+								<h5 class="sub-tit">
+									<img src="../Templates/Icons/energia-off.svg">Horas de encendido / apagado de equipos eléctricos <span class="spanEstadistHabEsp">habitación 203</span>
+								</h5>
+								<div class="p-15-30 cont-graphs">
+									<div class="div-prueba">
+										div para borrar
+									</div>
+								</div>
+								<!-- ------------------------------------------------------------- -->
+								<h5 class="sub-tit">
+									<img src="../Templates/Images/Resources/aire-acondicionado.svg">Consumo en KW/H de aire acondicionado <span class="spanEstadistHabEsp">habitación 203</span>
+								</h5>
+								<div class="p-15-30 cont-graphs">
+									<div class="div-prueba">
+										div para borrar
+									</div>
+								</div>
+								<!-- ------------------------------------------------------------- -->
+								<h5 class="sub-tit">
+									<img src="../Templates/Images/Resources/television.svg">Consumo en KW/H de T.V. <span class="spanEstadistHabEsp">habitación 203</span>
+								</h5>
+								<div class="p-15-30 cont-graphs">
+									<div class="div-prueba">
+										div para borrar
+									</div>
+								</div>
+								<!-- ------------------------------------------------------------- -->
+								<h5 class="sub-tit">
+									<img src="../Templates/Icons/bombillo-off.svg">Consumo en KW/H de iluminación <span class="spanEstadistHabEsp">habitación 203</span>
+								</h5>
+								<div class="p-15-30 cont-graphs">
+									<div class="div-prueba">
+										div para borrar
+									</div>
+								</div>
+								<!-- ------------------------------------------------------------- -->
+								<h5 class="sub-tit">
+									<img src="../Templates/Icons/bombillo-off.svg">Consumo en KW/H de iluminación baño <span class="spanEstadistHabEsp">habitación 203</span>
+								</h5>
+								<div class="p-15-30 cont-graphs">
+									<div class="div-prueba">
+										div para borrar
+									</div>
+								</div>
+								<!-- ------------------------------------------------------------- -->
+								<h5 class="sub-tit">
+									<img src="../Templates/Icons/energia-off.svg">Consumo Total en KW/h habitación <span class="spanEstadistHabEsp">habitación 203</span>
+								</h5>
+								<div class="p-15-30 cont-graphs">
+									<div class="div-prueba">
+										div para borrar
+									</div>
+								</div>
+								
+								<!-- ------------------------------------------------------------- -->
+								<h5 class="sub-tit">
+									<img src="../Templates/Icons/temperatura.svg">Temperatura promedio <span class="spanEstadistHabEsp">habitación 203</span>
+								</h5>
+								<div class="p-15-30 cont-graphs">
+									<div class="div-prueba">
+										div para borrar
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			numerohabitacion = $("#selectHab").text();
+		});
+
+
+		$('.btnselectorroom').click(function () {
+			let x = $(this).find("span").text();
+			const y = x.charAt(x.length - 1);
+			$("#selectHab").text(x);
+			$(".spanEstadistHabEsp").text("habitación " + x);
+			$("#areaselector").removeClass();
+			$("#areaselector").addClass("img" + y);
+			mostrarconstruccion();
+		});
+
+		$(".selectPiso").click(function () {
+			var cont = 1;
+			let x = $(this).text();
+			const y = x.charAt(x.length - 1);
+			$("#idpiso").text($(this).text());
+			for (var i = 0; i < 7; i++) {
+				$("#span" + cont.toString()).text(y.toString() + "0" + cont.toString());
+				cont++;
+			};
+			var e = y.toString() + $("#selectHab").text().slice(1);
+			$("#selectHab").text(e);
+			$(".spanEstadistHabEsp").text("habitación " + y.toString() + $("#selectHab").text().slice(1));
+			mostrarconstruccion();
+		});
+
+
+		$(".menuSuperiorDispo").click(function () {
+			var hh = $(this).text();
+			$("#titleh3g").text(hh);
+		});
+
+		function mostrarconstruccion() {
+			var n1 = $("#selectHab").text();
+			numerohabitacion = n1;
+			if (n1 === '203' || n1 === '204') {
+				var tt = '';
+				if (n1 === '203') {
+					$("#hab"+n1).removeClass('d-none');
+					$("#hab204").addClass('d-none');
+				} else{
+					$("#hab"+n1).removeClass('d-none');
+					$("#hab203").addClass('d-none');
+				};
+				$("#pills-tab").addClass("show");
+				$("#divconstruction").removeClass("active show");
+				$("#pills-TabEstadis").addClass("active show");
+			} else {
+				$("#pills-tab").removeClass("show");
+				$("#pills-TabEstadis, #pills-TabIlumin").removeClass("active show");
+				$("#divconstruction").addClass("active show");
+				$("#pills-tab").addClass("d-none");
+			};
+		};
+
+		$("#MenuAside a").click(function(){
+			var clases = "show active";
+			var id = $(this).attr('id');
+			var selector = $("div[aria-labelledby='"+id+"']");
+			if (selector.length) {
+				if (id === "Menu_Estadisticas" || id === "Menu_Mantenimientos") {
+					var v1 = '';
+					var v2 = '';
+					if (!$(this).hasClass("active")) {
+						if (this.id === 'Menu_Estadisticas') {
+							v1 = 'Menu_Mantenimientos';
+							v2 = 'CollapseMantenimientos'
+						} else {
+							v1 = 'Menu_Estadisticas';
+							v2 = 'CollapseEstadisticas'
+						};
+						$("#" + v1).addClass("collapsed");
+						$("#" + v2).removeClass("collapse show");
+						$("#" + v2).addClass("collapsing");
+						$("#" + v2).removeClass("collapsing");
+						$("#" + v2).addClass("collapse");
+					};
+					if (!$(selector).hasClass(clases)) {
+						$(".chilContents").removeClass(clases);
+						$(selector).addClass(clases)
+					};
+				} else {
+					if ( id === "Menu_Dispositivos") {
+						$("#divconstruction").removeClass(clases);
+						$("#pills-TabEstadis-tab").removeClass("show active");
+						$("#pills-TabEstadis").removeClass("active");
+						$("#pills-TabIlumin-tab").addClass("show active");
+						$("#pills-TabIlumin").addClass(clases);
+						$("#pills-tab").removeClass("d-none");
+						mostrarconstruccion();
+					} else if( id === "Menu_btnEspecificos1"){
+						
+						$(".chilContents").removeClass(clases);
+						$("#pills-tab").removeClass("d-none fade");
+
+						$("#Dispositivos").addClass(clases);
+						$("#divconstruction").removeClass(clases);
+
+						$("#pills-TabEstadis-tab").addClass("active");
+						$("#pills-TabEstadis").addClass("show active");
+
+						$("#pills-TabIlumin-tab").removeClass("show active");
+						$("#pills-TabIlumin").removeClass(clases);
+						return;
+					};
+				};
+				mostrarconstruccion();
+				if (!$(selector).hasClass(clases)) {
+					$(".chilContents").removeClass(clases);
+					$(selector).addClass(clases)
+				};
+				$("#MenuAside a.active").removeClass("active");
+				$(this).addClass("active");
+			} else{
+				if (id === "Menu_Estadisticas" || id === "Menu_Mantenimientos") {
+					var v1 = '';
+					var v2 = '';
+					if (!$(this).hasClass("active")) {
+						$("#MenuAside a.active").removeClass("active");
+						if (this.id === 'Menu_Estadisticas') {
+							v1 = 'Menu_Mantenimientos';
+							v2 = 'CollapseMantenimientos'
+						} else {
+							v1 = 'Menu_Estadisticas';
+							v2 = 'CollapseEstadisticas'
+						};
+						$("#" + v1).addClass("collapsed");
+						$("#" + v2).removeClass("collapse show");
+						$("#" + v2).addClass("collapsing");
+						$("#" + v2).removeClass("collapsing");
+						$("#" + v2).addClass("collapse");;
+						$("#" + id).addClass("active");
+					};
+				} 
+			}
+		});
+
+		function showTime() {
+			var date = new Date();
+			var h = date.getHours(); // 0 - 23
+			var m = date.getMinutes(); // 0 - 59
+			var session = "AM";
+			if (h == 0) {
+				h = 12;
+			};
+			if (h > 12) {
+				h = h - 12;
+				session = "PM";
+			};
+			h = (h < 10) ? "0" + h : h;
+			m = (m < 10) ? "0" + m : m;
+			var time = h + ":" + m + " " + session;
+			document.getElementById("MyClockDisplay").innerText = time;
+			document.getElementById("MyClockDisplay").textContent = time;
+			setTimeout(showTime, 1000);
+		};
+		showTime();
+
+
+	</script>
+</body>
+</html>

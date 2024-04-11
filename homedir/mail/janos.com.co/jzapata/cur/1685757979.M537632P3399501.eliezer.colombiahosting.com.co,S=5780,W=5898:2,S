@@ -1,0 +1,118 @@
+Return-Path: <josejavierz@gmail.com>
+Delivered-To: jzapata@janos.com.co
+Received: from eliezer.colombiahosting.com.co
+	by eliezer.colombiahosting.com.co with LMTP
+	id mPfcHxugemRN3zMAa8bRMQ
+	(envelope-from <josejavierz@gmail.com>)
+	for <jzapata@janos.com.co>; Fri, 02 Jun 2023 21:06:19 -0500
+Return-path: <josejavierz@gmail.com>
+Envelope-to: jzapata@janos.com.co
+Delivery-date: Fri, 02 Jun 2023 21:06:19 -0500
+Received: from mail-lf1-f48.google.com ([209.85.167.48]:55416)
+	by eliezer.colombiahosting.com.co with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <josejavierz@gmail.com>)
+	id 1q5Gep-00EH00-0M
+	for jzapata@janos.com.co;
+	Fri, 02 Jun 2023 21:06:19 -0500
+Received: by mail-lf1-f48.google.com with SMTP id 2adb3069b0e04-4f611ac39c5so1782120e87.2
+        for <jzapata@janos.com.co>; Fri, 02 Jun 2023 19:05:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1685757937; x=1688349937;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=+eZsIs+dZnfloj11iCf8ScroeelfmY/AgWQb3/Oa7BY=;
+        b=iB4YlVy21TLSWKqSs9jxw7LLLvxr9PK1TifibvWFAEW5ynSGs1kAmZNTPlNm5v719A
+         cYTNA4KajRC+xSfsuzpPIGBwpIKdSGr/DsmUxxMD1FUVJlltv9rA0qYul5zUR8NIfAjz
+         32ltLFvF+VXwYTLkAIsA/jYFGN4hW982xQ/UkvxmYUpE9cJYq9xhImDCIpx04QUojeHG
+         fL0Cd/I8Zraz3qebku5KI8Kt6oZA345snuTUkpeUfyOQ6jGLamtiMHdIaciL6kiHPQjH
+         8nZfc/5UTkBlc0bVQ6cp46xXPKDoIFm1a9h55mTtSx+TddvzqVfVjH2dYBbxmNO8gEsk
+         8Jpw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685757937; x=1688349937;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=+eZsIs+dZnfloj11iCf8ScroeelfmY/AgWQb3/Oa7BY=;
+        b=fqDF1IJFKPraNLExAND8sxzkarV2CToNXzHNmPfafTergLXdVU4mz5kLrensLx6626
+         2yliPalF8wikFFS/tkySWNvlUNyCar5FoL9dYjp681BRDpkUYBRB+P63EAgMmGXrKg81
+         kLHpqT8Nd0rwVWR3FPB7Smu48P+5+dn4LAxW/5UA+GwuqEjYDEIZEMl9X+kHFwJmMLy5
+         UUi5TeOTgHNV+bq3HozYqOlxQJVGATIac5erACO8Hsx5LZTmCv4ngieJ4AN2KGOoOIsY
+         mrMHl0WdL+7JNEeS9IpCeS30OnWlWcUvrNvZyErHpcmArZR9Tt2AkmMMfZE9UCSlwYjw
+         ybVg==
+X-Gm-Message-State: AC+VfDyMp/wNO5UBrnpjZgELtPmKAtr098T3hJ+O6hV8lF0FQchf605a
+	LSclp0iy09IJ1cTiADdcPt1MwpXSiQ3YYqLF144I19BK
+X-Google-Smtp-Source: ACHHUZ5CII4Eo53y0RzJmqnrCqZCzHwZiPFgm0Dqi8Alw5DfvgaiaBJiBxxZCFPXrg2HX4Hgdr4wWB+r3qZgO+ggd1I=
+X-Received: by 2002:a2e:3017:0:b0:2ac:8bc1:9cb1 with SMTP id
+ w23-20020a2e3017000000b002ac8bc19cb1mr906468ljw.42.1685757936916; Fri, 02 Jun
+ 2023 19:05:36 -0700 (PDT)
+MIME-Version: 1.0
+References: <b9ee3a5d6779f1ef6d563ffa50c47abb@janos.com.co>
+In-Reply-To: <b9ee3a5d6779f1ef6d563ffa50c47abb@janos.com.co>
+From: Jose Javier Zapata <josejavierz@gmail.com>
+Date: Fri, 2 Jun 2023 21:05:33 -0500
+Message-ID: <CAKc0JaFVbhsd5cj0Up-8YVXKHwXbM27Oy9VtYetkeM6TMzhnpg@mail.gmail.com>
+Subject: Re: Prueba Janos
+To: jzapata@janos.com.co
+Content-Type: multipart/alternative; boundary="00000000000001e13b05fd301b83"
+X-Spam-Status: No, score=-1.1
+X-Spam-Score: -10
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "eliezer.colombiahosting.com.co",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Buenas noches esta es la respuesta. El vie, 2 jun 2023 a las
+    20:53, escribió: > Este es un ejemplo de cuenta Janos > 
+ Content analysis details:   (-1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [josejavierz[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.5 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.5 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--00000000000001e13b05fd301b83
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Buenas noches esta es la respuesta.
+
+
+
+El vie, 2 jun 2023 a las 20:53, <jzapata@janos.com.co> escribi=C3=B3:
+
+> Este es un ejemplo de cuenta Janos
+>
+
+
+--=20
+_______________________________
+Ing. Jos=C3=A9 Javier Zapata Polo
+Esp. en Desarrollo de Software
+TP 08255165032
+Cel 301 385 68 27
+
+--00000000000001e13b05fd301b83
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Buenas noches esta es la respuesta.<div><br></div><div><br=
+></div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail=
+_attr">El vie, 2 jun 2023 a las 20:53, &lt;<a href=3D"mailto:jzapata@janos.=
+com.co">jzapata@janos.com.co</a>&gt; escribi=C3=B3:<br></div><blockquote cl=
+ass=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid=
+ rgb(204,204,204);padding-left:1ex">Este es un ejemplo de cuenta Janos<br>
+</blockquote></div><br clear=3D"all"><div><br></div><span class=3D"gmail_si=
+gnature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_signature">__=
+_____________________________<br>Ing. Jos=C3=A9 Javier Zapata Polo<br>Esp. =
+en Desarrollo de Software<br>TP 08255165032<br>Cel 301 385 68 27<br></div>
+
+--00000000000001e13b05fd301b83--

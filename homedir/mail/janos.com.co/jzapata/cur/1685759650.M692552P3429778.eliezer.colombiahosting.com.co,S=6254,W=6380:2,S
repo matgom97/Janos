@@ -1,0 +1,126 @@
+Return-Path: <oscarma.garcia@gmail.com>
+Delivered-To: jzapata@janos.com.co
+Received: from eliezer.colombiahosting.com.co
+	by eliezer.colombiahosting.com.co with LMTP
+	id AP8YKaKmemSSVTQAa8bRMQ
+	(envelope-from <oscarma.garcia@gmail.com>)
+	for <jzapata@janos.com.co>; Fri, 02 Jun 2023 21:34:10 -0500
+Return-path: <oscarma.garcia@gmail.com>
+Envelope-to: jzapata@janos.com.co
+Delivery-date: Fri, 02 Jun 2023 21:34:10 -0500
+Received: from mail-yw1-f178.google.com ([209.85.128.178]:54658)
+	by eliezer.colombiahosting.com.co with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <oscarma.garcia@gmail.com>)
+	id 1q5H5n-00EOKr-0Q
+	for jzapata@janos.com.co;
+	Fri, 02 Jun 2023 21:34:10 -0500
+Received: by mail-yw1-f178.google.com with SMTP id 00721157ae682-5664b14966bso31293117b3.1
+        for <jzapata@janos.com.co>; Fri, 02 Jun 2023 19:33:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1685759610; x=1688351610;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=BwdXjbn75lQqfIW4eNpKUwGywdRrB6B4P/Gfx15DJ2U=;
+        b=DV4kIct/CPP9ydg1gjHlBnVC9bQv7tM2+FBif6r7KRkDzdrMlPh65EDTeqhKkclTZv
+         kGLkn4jBi2eh1ods7aCO6SN7g2eN27BOqCjWIH5moxowtq5/8QMh+E7l0O3cpx8wn+S9
+         zjxECa/8BKCehAFpgmqACbzL7i7WWVPdU9EBaYSPo4iGXfl19quPq2Cu/t+7hMWqW5tr
+         VYQkyC5dQQEJAwVA+S9tgEB5LtmqlMueOq7Tm+WNJdTakrjcfdobQdYKcJOcSWmgmiQJ
+         XrARZ2j4Dn299jjb5dq1JR06QFmPHLfDU7eC4mJXcBe5jIgxVmjQTXTkLN7UUz9TzOY1
+         1cTQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685759610; x=1688351610;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=BwdXjbn75lQqfIW4eNpKUwGywdRrB6B4P/Gfx15DJ2U=;
+        b=ODAhX+TtKO1Fyq8dIMyfTDUtkBx0Ri5zrDnQR/O+XAjZq4xFzw7MiLdGXJjDuP2TfU
+         QvDJgMsu5EmTPHGXj2K59FictuF6XCnTRLrb5lU3o7KiaaRBNmHLeF2xgW76vdfjVTJh
+         /XSJgdc02wzbVyc+9uYH4EMLlCbkXEKdZC9uQitEDubquy34KfVTpc115dX87ELibVIC
+         /XYukVxb51STH8vip4QleesAJFd3hsuCch9QXJtS07HMhVlum18MUhiDs6GveO/eAJGq
+         8I6Z6cgGVb4pKspQcF4Sv09VRFLHbpzuLkwwXV/pc2vhTyqmtqy8R4ypkFAeJX7JrjOX
+         +57A==
+X-Gm-Message-State: AC+VfDyrpsQ46YHHPVoeBfA+sRGxUcJ0GiQaJkIQRm7oab1KRdavVY1j
+	NB3arjAX19orGjQPSlVCTsWN38+g9xqqac4NVW205VwZosQ=
+X-Google-Smtp-Source: ACHHUZ6gi/5rquPlIv/e/aMCaUeE6Q9f5kOV24O88FmwFlOEwWzlYndux6gXdxFwbXxWl1MiXxbUDxdvcv6HZfOVacs=
+X-Received: by 2002:a81:6646:0:b0:55a:9b5a:1d9f with SMTP id
+ a67-20020a816646000000b0055a9b5a1d9fmr2329719ywc.11.1685759610126; Fri, 02
+ Jun 2023 19:33:30 -0700 (PDT)
+MIME-Version: 1.0
+References: <6b09e0a2f513087fec033012dcdc4715@janos.com.co>
+In-Reply-To: <6b09e0a2f513087fec033012dcdc4715@janos.com.co>
+From: Oscar Garcia <oscarma.garcia@gmail.com>
+Date: Fri, 2 Jun 2023 21:33:20 -0500
+Message-ID: <CADRwUthddpVBRCRQrEyu93zJ_bc1mAoZKyXA1JbZ2DRUfrKQxQ@mail.gmail.com>
+Subject: Re: Prueba correo
+To: jzapata@janos.com.co
+Content-Type: multipart/alternative; boundary="000000000000bd05b805fd307e18"
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "eliezer.colombiahosting.com.co",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hola, ¿qué tal? *Oscar Garcia* Dip. Arch Tech- Canada Esp.
+    Sust. Const- Colombia Bach Architect- Colombia LEED Green Associate On Fri,
+    Jun 2, 2023 at 8:50 PM wrote: > > > Hola Oscar Este es un correo de la
+   cuenta Janos > 
+ Content analysis details:   (0.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [oscarma.garcia[at]gmail.com]
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.5 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.5 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--000000000000bd05b805fd307e18
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hola, =C2=BFqu=C3=A9 tal?
+*Oscar Garcia*
+Dip. Arch Tech- Canada
+Esp. Sust. Const- Colombia
+Bach Architect- Colombia
+LEED Green Associate
+
+
+On Fri, Jun 2, 2023 at 8:50=E2=80=AFPM <jzapata@janos.com.co> wrote:
+
+>
+>
+> Hola Oscar Este es un correo de la cuenta Janos
+>
+
+--000000000000bd05b805fd307e18
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hola, =C2=BFqu=C3=A9 tal?=C2=A0<br clear=3D"all"><div><div=
+ dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><=
+div dir=3D"ltr"><b>Oscar Garcia</b><div>Dip. Arch Tech- Canada</div><div>Es=
+p. Sust. Const- Colombia<br></div><div>Bach Architect- Colombia<br></div><d=
+iv>LEED Green Associate<br></div><div><img width=3D"96" height=3D"96" src=
+=3D"https://ci3.googleusercontent.com/mail-sig/AIorK4zBH5_y-NLiooxQFuuzbptf=
+GjOpakMxioFzKJzSpfGlUSrycdKxidpOHfLW2dEUvdopjUaaR2A"></div></div></div></di=
+v><br></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_=
+attr">On Fri, Jun 2, 2023 at 8:50=E2=80=AFPM &lt;<a href=3D"mailto:jzapata@=
+janos.com.co">jzapata@janos.com.co</a>&gt; wrote:<br></div><blockquote clas=
+s=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid r=
+gb(204,204,204);padding-left:1ex"><br>
+<br>
+Hola Oscar Este es un correo de la cuenta Janos<br>
+</blockquote></div>
+
+--000000000000bd05b805fd307e18--

@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/janoscom/public_html
+group: janoscom
+hascgi: 0
+homedir: /home/janoscom
+ip: 190.8.176.74
+ipv6: ~
+owner: admin
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: 0
+serveradmin: webmaster@janos.com.co
+serveralias: mail.janos.com.co www.janos.com.co
+servername: janos.com.co
+ssl: 1
+usecanonicalname: 'Off'
+user: janoscom
+userdirprotect: ''

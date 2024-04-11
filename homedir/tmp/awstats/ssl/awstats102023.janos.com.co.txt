@@ -1,0 +1,1151 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202310 will be lost/reset.
+# Last config file used to build this data file was /home/janoscom/tmp/awstats/ssl/awstats.janos.com.co.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2687                
+POS_VISITOR 26770               
+POS_DAY 42568               
+POS_DOMAIN 3518                
+POS_LOGIN 3940                
+POS_ROBOT 4095                
+POS_WORMS 4709                
+POS_EMAILSENDER 4840                
+POS_EMAILRECEIVER 4983                
+POS_SESSION 43363               
+POS_SIDER 43575               
+POS_FILETYPES 5118                
+POS_DOWNLOADS 5362                
+POS_OS 5410                
+POS_BROWSER 6016                
+POS_SCREENSIZE 8031                
+POS_UNKNOWNREFERER 8105                
+POS_UNKNOWNREFERERBROWSER 8707                
+POS_ORIGIN 8898                
+POS_SEREFERRALS 9040                
+POS_PAGEREFS 9213                
+POS_SEARCHWORDS 9434                
+POS_KEYWORDS 9586                
+POS_MISC 2351                
+POS_ERRORS 9645                
+POS_CLUSTER 3796                
+POS_SIDER_404 9767                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231101022236 4 823 14097648046086
+FirstTime 20231001000801
+LastTime 20231031223804
+LastUpdate 20231101072033 4 0 3 0 0
+TotalVisits 516                 
+TotalUnique 405                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 405                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 55 1370057 3 4 13965
+1 22 26 199647 0 3 0
+2 0 0 0 16 19 41662
+3 13 19 301865 21 57 149193
+4 63 199 5294011 58 93 200435
+5 110 411 11764674 50 66 78022
+6 96 291 7376440 40 62 69759
+7 108 233 5919272 21 41 19065
+8 248 376 5768983 53 109 108321
+9 281 399 7000789 40 92 35193
+10 230 381 8823813 40 111 237706
+11 184 318 5544188 28 143 1629867
+12 120 184 3776085 35 75 950775
+13 169 255 15763970 32 59 93577
+14 169 295 4607474 15 49 13252
+15 63 116 715923 2 16 55958
+16 226 291 3190547 14 101 48138
+17 211 332 6943528 32 68 35536
+18 117 278 17603866 245 291 368517
+19 66 72 338067 5 48 249721
+20 35 72 1491813 2 16 11142
+21 66 158 3854540 3 14 8708
+22 63 248 14090477 6 47 140790
+23 6 6 145 10 41 134612
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+co 2105 3298 88032892
+us 502 1442 36753230
+ar 15 17 101175
+bd 12 76 2498348
+pa 11 13 99607
+se 11 13 99249
+cn 10 72 1655969
+ru 6 38 1249174
+iq 6 38 1249174
+eu 3 3 564
+nl 2 2 330
+br 1 1 109
+gb 1 1 188
+ca 1 1 165
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+Googlebot/ 205 766375 20231022110238 0
+bingbot/ 67 526916 20231028040804 0
+no_user_agent 56 0 20231005162121 0
+link 40 1256300 20231020115647 0
+Go\-http\-client/ 23 3795 20231028062924 0
+Googlebot\-Image/ 21 1080342 20231017062704 0
+(firefox/)([0-9]\.|[0-1][0]\.) 6 27930 20231024054552 0
+survey 5 45237 20231005090444 0
+Konqueror/ 3 13965 20231020081626 0
+FirePHP/ 3 13965 20231024062720 0
+facebookexternalhit/ 2 1447 20231017053320 0
+Mediapartners-Google 1 1259 20231002150114 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jfif 53 248268 0 0
+svg 772 965304 0 0
+map 10 4189590 0 0
+html 909 1158960 0 0
+ttf 152 3003560 0 0
+php 1562 1683550 0 0
+png 756 116280901 0 0
+css 435 1678898 0 0
+js 366 2531143 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 35
+winunknown 9 9
+linuxdebian 3 3
+androidhoneycomb 43 10
+androidkitkat 40 7
+androidpie 20 16
+macosx7 3 3
+androidcupcake 80 14
+ios_ipad 43 10
+macosx 4 4
+unix 40 7
+androidoreo 79 17
+linux 281 116
+ios_iphone 969 490
+Unknown 50 34
+androidics 40 7
+winphone 43 10
+linuxubuntu 3 3
+android10 712 490
+macosx12 41 8
+win8 40 7
+macosx10 3 3
+androidnougat 5 5
+macosx13 1 1
+win10 2031 1223
+macosx15 77 35
+androidmarshmallow 3 3
+j2me 3 3
+macosx9 3 3
+bsdfreebsd 3 3
+symbian 80 14
+androidfroyo 3 3
+android 162 93
+macosx6 40 7
+androidgingerbread 3 3
+win7 55 22
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 98
+chrome87.0.4280.88 72 10
+chrome109.0.0.0 8 6
+safari16.6 224 145
+chrome101.0.4951.67 13 7
+chrome103.0.5060.134 38 20
+chrome117.0.0.0 2014 1381
+chrome101.0.4951.54 14 8
+firefox117.0 41 6
+chrome100.0.4896.127 23 15
+safari16.1 379 83
+chrome72.0.3626.121 2 2
+chrome55.0.2876.0 80 14
+chrome52.0.2743.98 3 3
+chrome111.0.0.0 13 9
+Unknown 20 20
+chrome113.0.0.0 1 1
+safari16.0 24 20
+chrome102.0.5005.63 24 12
+opera15.0.1147.24 3 3
+safari10.0 1 1
+iphone 3 3
+chrome112.0.5615.136 18 14
+chrome89.0.4389.116 11 9
+android 169 37
+chrome118.0.0.0 308 81
+firefox20.0 43 10
+chrome52.0.2743.116 3 3
+edge17 9 7
+lg\- 3 3
+msie10.0 3 3
+chrome104.0.0.0 24 12
+chrome115.0.0.0 1 1
+msie9.0 40 7
+wap 3 3
+chrome79.0.3945.74 2 2
+chrome84.0.4147.105 2 2
+chrome64.0.3282.186 1 1
+chrome86.0.4240.198 12 6
+chrome94.0.4606.85 7 5
+chrome17.0.939.0 3 3
+chrome4.7.0 3 3
+opera11.1010 40 7
+chrome95.0.4638.54 2 2
+msie11.0 3 3
+chrome105.0.0.0 10 8
+safari4.0 40 7
+firefox40.0 1 1
+chrome66.0.3359.181 49 49
+chrome79.0.3945.79 7 7
+edge12 40 7
+opera47.0.2631.55 3 3
+chrome32.0.1664.3 3 3
+firefox25.0 43 10
+opera12.16 3 3
+chrome62.0.3187.0 3 3
+chrome33.0.1750.152 3 3
+chrome28.0.1469.0 3 3
+safari15.6.6 2 2
+chrome116.0.0.0 147 104
+safari15.6.1 27 21
+chrome108.0.0.0 27 25
+safari15.6.4 17 15
+firefox58.0 1 1
+safari14.1.2 16 10
+chrome114.0.5225.106 1 1
+chrome111.0.5563.116 41 31
+chrome80.0.3987.162 1 1
+safari14.0.3 19 11
+chrome103.0.5060.114 1 1
+safari17.0 78 59
+safari 121 47
+mozilla 21 5
+safari15.5 10 8
+chrome83.0.4103.97 29 29
+safari15.6 9 7
+safari16.3 36 32
+safari5.1.3 3 3
+chrome99.0.4844.88 18 14
+msie5.0 3 3
+chrome51.0.2704.103 1 1
+safari17.0.1 3 1
+chrome68.0.3440.106 117 18
+chrome66.0.3359.155 9 7
+chrome60.0.3112.107 3 3
+safari16.5.2 10 6
+chrome36.0.1985.125 3 3
+safari5.0.2 43 10
+chrome4.0.207.0 3 3
+chrome30.0.1599.103 40 7
+nokia 40 7
+chrome47.0.2526.73 3 3
+netscape5.0 2 2
+chrome107.0.0.0 12 10
+firefox49.0 40 7
+chrome59.0.3071.104 20 20
+safari16.2 41 35
+chrome119.0.0.0 39 6
+chrome4.0.249.0 40 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(MeeGo;_NokiaN950-00/00)_AppleWebKit/534.13_(KHTML,_like_Gecko)_NokiaBrowser/8.5.0_Mobile_Safari/534.13 20231019044050
+LG-LX550_AU-MIC-LX550/2.0_MMP/2.0_Profile/MIDP-2.0_Configuration/CLDC-1.1 20231019050648
+python-requests/2.31.0 20231028093217
+Mozilla/5.0_(compatible;_Dataprovider.com) 20231027062417
+POLARIS/6.01_(BREW_3.1.5;_U;_en-us;_LG;_LX265;_POLARIS/6.01/WAP)_MMP/2.0_profile/MIDP-2.1_Configuration/CLDC-1.1 20231020115639
+WhatsApp/2.23.17.80_A 20231003111442
+WhatsApp/2.23.20.0 20231025184818
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+python-requests/2.31.0 20231028093217
+WhatsApp/2.23.17.80_A 20231003111442
+WhatsApp/2.23.20.0 20231025184818
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 786 788
+From1 4 4
+From2 11 11
+From3 9 9
+From4 1876 4203
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+baidu 3 3
+www_google_com 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://statics.teams.cdn.office.net 5 5
+https://www.petalsearch.com 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 8 72454
+500 2 0
+301 8 4949
+404 710 878980
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 286
+//wp-admin/admin-ajax.php 10 http://janos.com.co//wp-admin/admin-ajax.php
+//ws.php 1 http://janos.com.co//ws.php
+//theme-install.php 1 http://janos.com.co//theme-install.php
+//uploads/up.php 1 http://janos.com.co//uploads/up.php
+/sanmarcos/views/index.php 1 -
+/security.txt 1 http://www.janos.com.co/security.txt
+//wp-content/plugins/hellopress/wp_filemanager.php 2 http://janos.com.co//wp-content/plugins/hellopress/wp_filemanager.php
+//end.php 1 http://janos.com.co//end.php
+//xlettt.php 1 http://janos.com.co//xlettt.php
+/robots.txt 35 -
+//wp-content/home.php 1 http://janos.com.co//wp-content/home.php
+//alfaindex.php 1 http://janos.com.co//alfaindex.php
+//xleet.php 1 http://janos.com.co//xleet.php
+//wp-content/themes/twenty/twenty.php 10 http://janos.com.co//wp-content/themes/twenty/twenty.php
+//wp-includes/install.php 10 http://janos.com.co//wp-includes/install.php
+//demo.php 1 http://janos.com.co//demo.php
+//wp-content/up.php 1 http://janos.com.co//wp-content/up.php
+//ch.php 1 http://janos.com.co//ch.php
+//cgi-bin/cgi-bin/about.php7 10 http://janos.com.co//cgi-bin/cgi-bin/about.php7
+//d7.php 1 http://janos.com.co//d7.php
+//plugin-install.php 1 http://janos.com.co//plugin-install.php
+/https://janos.com.co/citas/ 1 -
+/apple-touch-icon.png 17 -
+//rxr.php 2 http://janos.com.co//rxr.php
+//plugins.php 1 http://janos.com.co//plugins.php
+//wp-admin/wp-trc.php 1 http://janos.com.co//wp-admin/wp-trc.php
+//wp-content/wp_filemanager.php 1 http://janos.com.co//wp-content/wp_filemanager.php
+//users.php 1 http://janos.com.co//users.php
+//default.php 1 http://janos.com.co//default.php
+//xx.php 1 http://janos.com.co//xx.php
+/b1a3k.php 1 http://janos.com.co/b1a3k.php
+//1.php 1 http://janos.com.co//1.php
+//about.php 1 http://janos.com.co//about.php
+//lock0360.php 1 http://janos.com.co//lock0360.php
+//404.php 1 http://janos.com.co//404.php
+//marijuana.php 1 http://janos.com.co//marijuana.php
+//upload.php 1 http://janos.com.co//upload.php
+//wp_wrong_datlib.php 1 http://janos.com.co//wp_wrong_datlib.php
+//wp-content/uploads/typehub/custom/.RxR.php 1 http://janos.com.co//wp-content/uploads/typehub/custom/.RxR.php
+//css/install.php 10 http://janos.com.co//css/install.php
+//wp-content/alfa.php 1 http://janos.com.co//wp-content/alfa.php
+//wp-head.php 12 http://janos.com.co//wp-head.php
+//403.php 1 http://janos.com.co//403.php
+//xox.php 1 http://janos.com.co//xox.php
+//cp.php 1 http://janos.com.co//cp.php
+//install.php 10 http://janos.com.co//install.php
+//__1975.php 1 http://janos.com.co//__1975.php
+//wp-content/plugins/real/v.php 1 http://janos.com.co//wp-content/plugins/real/v.php
+//wp-admin/fx.php 1 http://janos.com.co//wp-admin/fx.php
+//wp-includes/shell20211028.php 1 http://janos.com.co//wp-includes/shell20211028.php
+//wp-includes/random_compat/random_bytes_cyclone.php 1 http://janos.com.co//wp-includes/random_compat/random_bytes_cyclone.php
+//shell.php 1 http://janos.com.co//shell.php
+//lock.php 1 http://janos.com.co//lock.php
+//contents.php 1 http://janos.com.co//contents.php
+//srx.php 1 http://janos.com.co//srx.php
+//columns.php 1 http://janos.com.co//columns.php
+//symlink.php 1 http://janos.com.co//symlink.php
+//mad.php 1 http://janos.com.co//mad.php
+/.well-known/security.txt 1 http://www.janos.com.co/.well-known/security.txt
+//wso.php 1 http://janos.com.co//wso.php
+//fox.php 1 http://janos.com.co//fox.php
+//xmlrpc2.php 1 http://janos.com.co//xmlrpc2.php
+//wp-content/dropdown.php 10 http://janos.com.co//wp-content/dropdown.php
+//wsu.php 1 http://janos.com.co//wsu.php
+//wp-includes/blocks/table/int/tmpl/index.php 1 http://janos.com.co//wp-includes/blocks/table/int/tmpl/index.php
+//wp-admin/css/colors/coffee/index.php 1 http://janos.com.co//wp-admin/css/colors/coffee/index.php
+//tools.php 1 http://janos.com.co//tools.php
+//inbox.php 1 http://janos.com.co//inbox.php
+/ads.txt 6 http://janos.com.co/ads.txt
+//wp-content/plugins/wordpresss3cll/up.php 2 http://janos.com.co//wp-content/plugins/wordpresss3cll/up.php
+//private.php 1 http://janos.com.co//private.php
+//tmp/vuln.php 1 http://janos.com.co//tmp/vuln.php
+/view-source: 2 -
+//v3n0m.php 1 http://janos.com.co//v3n0m.php
+//utchiha.php 1 http://janos.com.co//utchiha.php
+/sitemap_index.xml 5 -
+//wp-content/plugins/linkpreview/db.php 1 http://janos.com.co//wp-content/plugins/linkpreview/db.php
+//images/F0x.php 1 http://janos.com.co//images/F0x.php
+//ini.php 1 http://janos.com.co//ini.php
+//wp-content/plugins/anttt/simple.php 1 http://janos.com.co//wp-content/plugins/anttt/simple.php
+//wp-admin/1975.php 1 http://janos.com.co//wp-admin/1975.php
+//credits.php 1 http://janos.com.co//credits.php
+//ee.php 11 http://janos.com.co//ee.php
+//sh.php 1 http://janos.com.co//sh.php
+//wp-admin/fw.php 1 http://janos.com.co//wp-admin/fw.php
+//wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 http://janos.com.co//wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php
+//css.php 1 http://janos.com.co//css.php
+//Deadcode1975.php 1 http://janos.com.co//Deadcode1975.php
+//log.php 1 http://janos.com.co//log.php
+//cgi-bin/cgi-bin/about.php 10 http://janos.com.co//cgi-bin/cgi-bin/about.php
+//wp-content/plugins/augmented-reality/vendor/elfinder/php/connector.minimal.php 1 http://janos.com.co//wp-content/plugins/augmented-reality/vendor/elfinder/php/connector.minimal.php
+//wp-content/plugins/Cache/Cache.php 1 http://janos.com.co//wp-content/plugins/Cache/Cache.php
+//themes.php 1 http://janos.com.co//themes.php
+//wp-includes/home.php 1 http://janos.com.co//wp-includes/home.php
+//wp-content/themes/welfare-charity/www.php 1 http://janos.com.co//wp-content/themes/welfare-charity/www.php
+//shellx.php 1 http://janos.com.co//shellx.php
+//repeater.php 1 http://janos.com.co//repeater.php
+//wp-admin/wso.php 1 http://janos.com.co//wp-admin/wso.php
+/apple-touch-icon-120x120-precomposed.png 16 -
+/humans.txt 6 http://janos.com.co/humans.txt
+//root.php 1 http://janos.com.co//root.php
+//alfanew.php7 1 http://janos.com.co//alfanew.php7
+//wp-plugins.php 1 http://janos.com.co//wp-plugins.php
+//wp-admin/dropdown.php 11 http://janos.com.co//wp-admin/dropdown.php
+//wp-info.php 1 http://janos.com.co//wp-info.php
+//small.php 1 http://janos.com.co//small.php
+/misc/ajax.js 2 -
+//fx.php 1 http://janos.com.co//fx.php
+//xxl.php 1 http://janos.com.co//xxl.php
+//license.php 1 http://janos.com.co//license.php
+//hanna1337.php 1 http://janos.com.co//hanna1337.php
+//wp.php 1 http://janos.com.co//wp.php
+//wp-content/plugins/TOPXOH/wDR.php 2 http://janos.com.co//wp-content/plugins/TOPXOH/wDR.php
+//tnt.php 1 http://janos.com.co//tnt.php
+//edit-comments.php 1 http://janos.com.co//edit-comments.php
+//wp-content/plugins/ccx/index.php 1 http://janos.com.co//wp-content/plugins/ccx/index.php
+//1337.php 1 http://janos.com.co//1337.php
+//indexs.php 1 http://janos.com.co//indexs.php
+//emergency.php 1 http://janos.com.co//emergency.php
+//h4xor.php 1 http://janos.com.co//h4xor.php
+//wp-admin/shell20211028.php 1 http://janos.com.co//wp-admin/shell20211028.php
+//kill.php 1 http://janos.com.co//kill.php
+//fm.php 1 http://janos.com.co//fm.php
+//wp-admin/js/about.php7 10 http://janos.com.co//wp-admin/js/about.php7
+//xml.php 1 http://janos.com.co//xml.php
+//minishell.php 1 http://janos.com.co//minishell.php
+//update-core.php 1 http://janos.com.co//update-core.php
+//st.php 12 http://janos.com.co//st.php
+//wp-content/plugins/core-stab/casper.php 1 http://janos.com.co//wp-content/plugins/core-stab/casper.php
+//z.php 1 http://janos.com.co//z.php
+//1975.php 1 http://janos.com.co//1975.php
+//wp-admin/home.php 1 http://janos.com.co//wp-admin/home.php
+//media-admin.php 1 http://janos.com.co//media-admin.php
+//wp-admin/includes/users.php 1 http://janos.com.co//wp-admin/includes/users.php
+//bala.php 1 http://janos.com.co//bala.php
+//moon.php 1 http://janos.com.co//moon.php
+//R00T.php 1 http://janos.com.co//R00T.php
+//mass.php 1 http://janos.com.co//mass.php
+//ton.php 1 http://janos.com.co//ton.php
+//lufi.php 1 http://janos.com.co//lufi.php
+//payload.php 1 http://janos.com.co//payload.php
+//cjfuns.php 12 http://janos.com.co//cjfuns.php
+//sym.php 1 http://janos.com.co//sym.php
+//wp-admin/js/about.php 10 http://janos.com.co//wp-admin/js/about.php
+//wp-includes/Text/about.php 10 http://janos.com.co//wp-includes/Text/about.php
+/apple-touch-icon-precomposed.png 17 -
+//lalala.php 1 http://janos.com.co//lalala.php
+//wp-content/themes/pridmag/db.php 1 http://janos.com.co//wp-content/themes/pridmag/db.php
+//m.php 1 http://janos.com.co//m.php
+//wp-content/themes/finley/min.php 1 http://janos.com.co//wp-content/themes/finley/min.php
+//wp-content/plugins/xsid/marijuana.php 1 http://janos.com.co//wp-content/plugins/xsid/marijuana.php
+//wp-content/plugins/Cache/dropdown.php 11 http://janos.com.co//wp-content/plugins/Cache/dropdown.php
+//shell20211028.php 1 http://janos.com.co//shell20211028.php
+//wp-content/uploads/ 10 http://janos.com.co//wp-content/uploads/
+//wp-content/plugins/revslider/includes/page/index.php 1 http://janos.com.co//wp-content/plugins/revslider/includes/page/index.php
+//Gecko.php 1 http://janos.com.co//Gecko.php
+//wp-admin/css/colors/blue/uploader.php 1 http://janos.com.co//wp-admin/css/colors/blue/uploader.php
+//wp-includes/wp-class.php 2 http://janos.com.co//wp-includes/wp-class.php
+//wp-admin/wso112233.php 1 http://janos.com.co//wp-admin/wso112233.php
+//doc.php 1 http://janos.com.co//doc.php
+//wp-content/plugins/install.php 10 http://janos.com.co//wp-content/plugins/install.php
+//1877.php 1 http://janos.com.co//1877.php
+//wp-content/install.php 10 http://janos.com.co//wp-content/install.php
+/wp-admin/setup-config.php 1 -
+//0z.php 1 http://janos.com.co//0z.php
+//upl.php 2 http://janos.com.co//upl.php
+//lyda.php 1 http://janos.com.co//lyda.php
+//hehe.php 1 http://janos.com.co//hehe.php
+//index2.php 1 http://janos.com.co//index2.php
+//0x55.php 1 http://janos.com.co//0x55.php
+/wp-content/index.php 1 http://janos.com.co/wp-content/index.php
+//mar.php 1 http://janos.com.co//mar.php
+//406.php 1 http://janos.com.co//406.php
+//wp-admin/network/db.php 1 http://janos.com.co//wp-admin/network/db.php
+/sitemap.xml 1 -
+//wp-22.php 1 http://janos.com.co//wp-22.php
+/sitemap.xml.gz 2 -
+//wp-content/plugins/index.php 1 http://janos.com.co//wp-content/plugins/index.php
+//IndoXploit.php 1 http://janos.com.co//IndoXploit.php
+//admin.php 1 http://janos.com.co//admin.php
+//home.php 1 http://janos.com.co//home.php
+/wordpress/wp-admin/setup-config.php 1 -
+//wp-content/themes/classic/inc/casper.php 1 http://janos.com.co//wp-content/themes/classic/inc/casper.php
+//tmpshell.php 1 http://janos.com.co//tmpshell.php
+//wp-includes/js/tinymce/plugins/compat3x/css/index.php 10 http://janos.com.co//wp-includes/js/tinymce/plugins/compat3x/css/index.php
+/wp-content/plugins/dzs-zoomsounds/1877.php 1 http://janos.com.co/wp-content/plugins/dzs-zoomsounds/1877.php
+//snd.php 1 http://janos.com.co//snd.php
+//user.php 1 http://janos.com.co//user.php
+//alfa.php 1 http://janos.com.co//alfa.php
+//wp-content/patior/ 10 http://janos.com.co//wp-content/patior/
+//www.php 1 http://janos.com.co//www.php
+//wsoyanzorng.php 1 http://janos.com.co//wsoyanzorng.php
+//wp-includes/fw.php 1 http://janos.com.co//wp-includes/fw.php
+//class.api.php 12 http://janos.com.co//class.api.php
+//zz.php 1 http://janos.com.co//zz.php
+//dropdown.php 10 http://janos.com.co//dropdown.php
+//wp-content/wp-conf.php 1 http://janos.com.co//wp-content/wp-conf.php
+//x.php 1 http://janos.com.co//x.php
+//wp-content/plugins/ioptimization/IOptimize.php 1 http://janos.com.co//wp-content/plugins/ioptimization/IOptimize.php
+//leet.php 1 http://janos.com.co//leet.php
+//olux.php 1 http://janos.com.co//olux.php
+/administrator/index.php 2 -
+//wp-content/plugins/wp-file-upload/ROOBOTS.php 1 http://janos.com.co//wp-content/plugins/wp-file-upload/ROOBOTS.php
+//.well-known/acme-challenge/install.php 10 http://janos.com.co//.well-known/acme-challenge/install.php
+//shells.php 1 http://janos.com.co//shells.php
+//user-new.php 1 http://janos.com.co//user-new.php
+//503.php 1 http://janos.com.co//503.php
+//byp.php 1 http://janos.com.co//byp.php
+//utchiha_uploader.php 1 http://janos.com.co//utchiha_uploader.php
+//moto.php 1 http://janos.com.co//moto.php
+//term.php 1 http://janos.com.co//term.php
+//gecko.php 1 http://janos.com.co//gecko.php
+//wp-content/plugins/elementor/includes/settings/index.php 1 http://janos.com.co//wp-content/plugins/elementor/includes/settings/index.php
+//exit.php 1 http://janos.com.co//exit.php
+//F0x.php 1 http://janos.com.co//F0x.php
+//wp-content/fw.php 1 http://janos.com.co//wp-content/fw.php
+//wp-admin/users.php 1 http://janos.com.co//wp-admin/users.php
+//wp-content/plugins/revslider/includes/external/page/index.php 1 http://janos.com.co//wp-content/plugins/revslider/includes/external/page/index.php
+//tron.php 1 http://janos.com.co//tron.php
+//wp-includes/wp_filemanager.php 1 http://janos.com.co//wp-includes/wp_filemanager.php
+/citas/report/%20Listados 1 -
+//tesla.php 1 http://janos.com.co//tesla.php
+//my1.php 12 http://janos.com.co//my1.php
+//update.php 1 http://janos.com.co//update.php
+//DKIZ.php 1 http://janos.com.co//DKIZ.php
+//google.php 1 http://janos.com.co//google.php
+//text.php 1 http://janos.com.co//text.php
+//wp-content/themes/gaukingo/db.php 1 http://janos.com.co//wp-content/themes/gaukingo/db.php
+//wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php 1 http://janos.com.co//wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php
+//wp-includes/atom.php 1 http://janos.com.co//wp-includes/atom.php
+//sites/all/libraries/elfinder/connectors/php/connector.php 1 http://janos.com.co//sites/all/libraries/elfinder/connectors/php/connector.php
+//wp-admin/alfa.php 1 http://janos.com.co//wp-admin/alfa.php
+//wp-admin/css/colors/blue/CasperExV1.php 1 http://janos.com.co//wp-admin/css/colors/blue/CasperExV1.php
+//wpx.php 1 http://janos.com.co//wpx.php
+//wp-admin/maint/moon.php 10 http://janos.com.co//wp-admin/maint/moon.php
+//init.php 1 http://janos.com.co//init.php
+//fan.php 1 http://janos.com.co//fan.php
+//wp-admin/network/subjects.php 1 http://janos.com.co//wp-admin/network/subjects.php
+//anon.php 1 http://janos.com.co//anon.php
+/wp-includes/wlwmanifest.xml 2 -
+//wp-includes/class-json-ajax-session.php 1 http://janos.com.co//wp-includes/class-json-ajax-session.php
+//utchiha505.php 1 http://janos.com.co//utchiha505.php
+//gaza.php 1 http://janos.com.co//gaza.php
+//templates/beez3/error.php 1 http://janos.com.co//templates/beez3/error.php
+//up.php 1 http://janos.com.co//up.php
+//wp-content/cong.php 1 http://janos.com.co//wp-content/cong.php
+//evil.php 1 http://janos.com.co//evil.php
+//lock360.php 1 http://janos.com.co//lock360.php
+//wp-file.php 1 http://janos.com.co//wp-file.php
+//wp-blog.php 1 http://janos.com.co//wp-blog.php
+//wp-admin/images/install.php 10 http://janos.com.co//wp-admin/images/install.php
+//wso112233.php 1 http://janos.com.co//wso112233.php
+//customize.php 1 http://janos.com.co//customize.php
+/apple-touch-icon-120x120.png 16 -
+/citasreport 1 -
+/report 3 -
+//an.php 1 http://janos.com.co//an.php
+//xl2023.php 1 http://janos.com.co//xl2023.php
+//xzourt.php 1 http://janos.com.co//xzourt.php
+//wp-content/plugins/ 10 http://janos.com.co//wp-content/plugins/
+//cgi-bin/install.php 10 http://janos.com.co//cgi-bin/install.php
+//wp-admin/install.php 10 http://janos.com.co//wp-admin/install.php
+//alf.php 1 http://janos.com.co//alf.php
+//fw.php 1 http://janos.com.co//fw.php
+//images/vuln.php 1 http://janos.com.co//images/vuln.php
+//style.php 1 http://janos.com.co//style.php
+//wp-content/plugins/instabuilder2/cache/plugins/moon.php 1 http://janos.com.co//wp-content/plugins/instabuilder2/cache/plugins/moon.php
+//0x.php 1 http://janos.com.co//0x.php
+//wp-content/plugins/w0rdpr3ssnew/about.php 1 http://janos.com.co//wp-content/plugins/w0rdpr3ssnew/about.php
+//wp-includes/rest-api/about.php 10 http://janos.com.co//wp-includes/rest-api/about.php
+//by.php 1 http://janos.com.co//by.php
+//me.php 1 http://janos.com.co//me.php
+//classwithtostring.php 1 http://janos.com.co//classwithtostring.php
+//wp-admin/wp-22.php 1 http://janos.com.co//wp-admin/wp-22.php
+//wp_filemanager.php 1 http://janos.com.co//wp_filemanager.php
+//wp-content/shell20211028.php 1 http://janos.com.co//wp-content/shell20211028.php
+/sanmarcos/Views/Index. 1 -
+//access.php 1 http://janos.com.co//access.php
+//mini.php 1 http://janos.com.co//mini.php
+//priv8.php 1 http://janos.com.co//priv8.php
+//font-editor.php 1 http://janos.com.co//font-editor.php
+//uph.php 1 http://janos.com.co//uph.php
+//wp-admin/wp_filemanager.php 1 http://janos.com.co//wp-admin/wp_filemanager.php
+//Marvins.php 1 http://janos.com.co//Marvins.php
+//ups.php 1 http://janos.com.co//ups.php
+//lufix.php 1 http://janos.com.co//lufix.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 405
+190.242.112.67 608 796 14010768 20231011150436
+190.131.200.194 241 400 24652353 20231030094655
+181.63.26.17 66 283 11578299 20231025223954
+186.98.252.131 53 201 10452941 20231024224347
+190.242.54.228 38 48 494990 20231005130340
+186.98.228.186 27 27 32882 20231004191955
+34.28.145.90 26 92 2554990 20231020133111
+34.122.129.0 20 86 2527060 20231019041902
+190.131.208.226 16 20 198402 20231006144059
+34.71.236.79 16 49 1284725 20231021141715
+34.41.215.200 16 49 1285195 20231026052653
+34.68.161.215 16 49 1284725 20231019044138
+35.239.174.111 16 49 1284725 20231019050650
+181.78.85.181 15 17 101175 20231007134949
+191.156.250.251 15 15 485 20231002090108
+146.148.37.68 15 48 1284560 20231021201858
+186.98.231.119 14 18 216189 20231002190349
+34.16.46.120 13 46 1270760 20231024054554
+34.122.27.164 13 46 1284230 20231019044413
+181.144.228.92 13 15 99371 20231004092626
+190.131.208.127 13 17 198357 20231002162940
+34.29.74.130 13 46 1284700 20231026071342
+34.172.43.42 13 46 1284230 20231020102614
+34.16.6.38 13 46 1284700 20231026083011
+34.132.21.91 13 46 1284230 20231024070439
+191.95.19.179 4 4 133 20231004123346
+179.1.86.71 7 9 99170 20231002143224
+192.36.109.127 1 1 165 20231022163528
+191.156.250.168 1 1 31 20231004163134
+40.94.27.40 1 1 4706 20231002174516
+191.95.16.26 5 5 1389 20231002160406
+191.156.251.48 9 11 99271 20231004162215
+54.202.188.72 1 1 165 20231014092651
+181.235.108.125 6 8 99137 20231002132845
+191.156.35.22 2 2 76 20231004130937
+54.184.135.232 1 1 165 20231012120647
+191.156.245.251 1 3 97972 20231031223804
+191.95.26.105 7 7 176 20231001195545
+191.156.247.207 2 2 103 20231004080344
+35.88.189.232 1 1 165 20231003101403
+161.10.109.46 7 9 99210 20231002125633
+186.169.218.254 2 2 1527 20231007121642
+40.94.29.40 1 3 96503 20231005071723
+179.19.231.13 1 1 29 20231006135029
+181.48.255.70 4 8 195765 20231008094837
+191.95.16.110 11 13 99218 20231002125906
+191.156.253.134 7 9 100395 20231003164138
+186.98.224.254 1 1 29 20231004213727
+35.163.114.191 1 1 165 20231004083501
+191.156.250.183 1 1 29 20231005144158
+35.90.222.83 1 1 165 20231009133510
+54.188.232.158 2 2 330 20231019100652
+179.19.217.119 1 1 29 20231009184515
+186.171.16.235 3 3 93 20231004134917
+52.26.40.190 1 1 165 20231005101312
+34.214.169.63 2 2 330 20231022124923
+34.173.58.155 1 1 165 20231019045629
+172.225.238.105 7 7 3917 20231003183038
+161.10.97.149 2 2 7037 20231008203449
+191.156.244.165 6 8 99134 20231004080303
+186.169.214.94 6 6 1399 20231003102651
+191.156.66.161 6 6 1401 20231003144105
+34.210.82.34 2 2 330 20231001110254
+34.172.112.106 1 1 165 20231027104521
+186.98.224.234 6 8 99128 20231002114645
+186.82.85.238 7 9 99167 20231003173209
+191.156.248.174 2 4 97764 20231002122711
+181.58.80.48 3 3 60 20231006120912
+54.149.207.135 1 1 165 20231015114835
+54.201.146.178 2 2 330 20231003131404
+161.10.111.186 6 8 99578 20231005183919
+191.95.18.148 8 10 100425 20231004083812
+186.98.226.1 1 1 31 20231004061043
+151.248.1.125 1 1 165 20231008054637
+191.156.242.130 6 12 293292 20231003120518
+186.171.1.145 8 10 99238 20231004130826
+172.174.39.181 4 8 195528 20231004112539
+34.222.58.243 1 1 165 20231010091857
+52.88.253.90 1 1 165 20231030050118
+172.225.238.98 7 9 99152 20231004143616
+34.215.58.163 1 1 165 20231011115509
+179.14.81.30 2 2 2518 20231001194554
+123.6.49.42 3 30 297930 20231002142823
+190.131.219.92 7 9 99163 20231002094213
+179.19.2.160 3 5 98007 20231006193349
+186.98.224.182 1 1 29 20231006054049
+191.156.250.58 4 6 98046 20231005120220
+147.182.237.15 1 1 165 20231012123829
+54.244.148.95 1 1 165 20231023091940
+40.94.25.59 2 4 97764 20231002084713
+206.204.15.201 6 38 1249174 20231018055214
+40.94.26.198 2 4 97764 20231002131951
+191.95.20.171 6 8 99112 20231003120953
+191.156.243.73 6 6 143 20231003133726
+18.237.193.145 1 1 165 20231001091024
+191.95.27.164 7 9 99192 20231004071004
+165.227.185.13 1 1 165 20231020124648
+191.95.25.21 7 9 99159 20231002110758
+35.93.140.118 2 2 330 20231024095403
+186.82.84.249 10 44 1298692 20231003074305
+191.156.252.83 8 8 289 20231002114749
+35.167.237.76 2 2 330 20231014104002
+186.98.247.64 2 4 97764 20231003065541
+40.94.28.57 2 4 97764 20231002135359
+179.33.153.150 1 1 29 20231008061312
+34.219.85.118 1 1 165 20231007094625
+207.154.194.235 1 1 165 20231005075646
+35.163.142.219 1 1 165 20231010092242
+18.236.117.230 1 1 165 20231014093542
+167.71.242.56 1 1 165 20231017113050
+191.156.248.14 2 4 98001 20231005124434
+191.156.247.31 3 5 99023 20231002124626
+191.156.47.121 1 1 72 20231001193719
+159.203.2.187 1 1 165 20231008071842
+40.94.27.126 1 1 0 20231004171029
+34.223.210.76 1 1 165 20231001091035
+191.95.16.66 7 9 99166 20231002214855
+186.98.225.56 9 11 99737 20231005042023
+54.212.241.83 2 2 330 20231025130822
+20.245.197.116 2 4 97764 20231004070554
+186.171.19.63 10 12 99279 20231002145855
+34.222.5.86 1 1 165 20231001091251
+191.156.40.88 2 4 97764 20231004130112
+181.52.96.5 6 8 99132 20231001000907
+179.33.159.180 6 8 99138 20231003214625
+40.94.25.161 1 1 31 20231002111307
+180.149.11.188 6 38 1249174 20231020055334
+191.95.21.92 6 8 99137 20231002093420
+191.156.248.211 4 4 93 20231004143640
+186.1.162.146 2 4 97764 20231002171526
+74.235.70.86 2 4 97764 20231003160306
+191.95.21.115 1 1 29 20231006111158
+181.48.255.196 4 8 195765 20231006140006
+165.22.116.215 1 1 165 20231014081202
+24.144.84.209 1 1 165 20231012115635
+34.234.83.252 2 2 7037 20231011032133
+181.52.235.45 4 4 1555 20231006111111
+191.95.29.236 3 3 1565 20231005105420
+20.22.207.237 2 4 97764 20231004171052
+191.156.247.10 1 1 29 20231006160502
+165.227.185.139 1 1 165 20231031034619
+20.109.112.126 4 8 195528 20231004171119
+181.235.100.128 9 11 99263 20231003123408
+191.156.253.219 2 4 97764 20231003070104
+191.156.247.86 2 4 29 20231015112725
+5.133.192.88 1 1 165 20231028144925
+191.95.16.109 6 8 99118 20231004103102
+199.244.88.224 1 1 165 20231003152239
+35.93.71.34 6 39 1260084 20231016104301
+191.95.20.240 2 4 97764 20231003160354
+191.92.155.20 1 1 31 20231003205815
+191.95.16.43 3 3 113 20231003123837
+172.172.71.29 2 4 97764 20231004133959
+161.10.108.235 11 11 4059 20231003124113
+20.29.217.202 2 4 97764 20231003122539
+191.95.36.177 10 12 99717 20231005104721
+191.156.243.36 6 8 99556 20231006104138
+167.99.188.7 1 1 165 20231010075950
+165.227.129.225 1 1 165 20231013164749
+46.101.200.114 1 1 165 20231022081836
+186.171.3.51 8 10 99274 20231003170914
+191.95.16.194 7 9 99178 20231003112337
+185.246.172.29 6 38 1249174 20231018060713
+40.94.30.218 2 4 97764 20231002104648
+52.36.145.236 2 2 330 20231014103912
+191.95.26.174 8 10 99198 20231002161311
+52.41.238.2 2 2 330 20231008095729
+191.156.251.237 1 1 75 20231003182147
+191.95.16.155 12 14 99377 20231002165332
+181.56.184.162 1 1 29 20231005051503
+40.94.25.156 1 3 97733 20231002111303
+191.95.1.158 7 45 4707986 20231020180424
+191.156.47.6 2 4 97764 20231004175249
+181.235.111.139 2 2 1527 20231004195604
+191.156.243.23 2 4 98001 20231007105118
+191.156.253.60 11 13 99249 20231003113000
+191.95.17.21 10 12 100540 20231004174040
+191.156.242.252 6 8 99114 20231004164407
+152.39.180.17 6 38 1249635 20231031060443
+168.151.124.91 6 38 1249174 20231020062204
+191.95.0.166 10 47 3887482 20231004101731
+40.77.111.31 2 4 97764 20231002095917
+18.236.124.53 1 1 165 20231017115237
+181.71.245.104 6 8 99128 20231002122634
+40.94.27.11 2 4 97764 20231002082012
+34.217.78.91 2 2 330 20231018123605
+185.6.10.201 1 1 165 20231016122824
+180.149.21.228 6 38 1249174 20231017061959
+191.95.21.84 3 5 97838 20231002132438
+186.169.145.130 3 3 1556 20231005181852
+34.209.244.165 1 1 165 20231008082430
+191.95.31.99 7 9 99172 20231002191257
+186.84.96.254 13 16 99613 20231004174457
+186.82.86.231 6 8 99578 20231005015419
+161.10.107.75 4 6 97878 20231002203742
+186.169.235.66 6 8 99570 20231005135641
+191.95.28.125 2 4 97764 20231003163540
+40.94.29.68 1 1 1498 20231005071722
+191.156.240.41 1 1 1442 20231003111442
+191.95.23.111 1 1 29 20231006094956
+34.219.189.249 1 1 165 20231014093457
+186.98.233.59 9 13 196934 20231002161104
+34.222.120.118 1 1 165 20231023092141
+34.132.221.26 1 1 165 20231028093217
+191.95.22.244 1 1 31 20231004161405
+186.171.3.250 9 9 2716 20231003181355
+181.56.185.151 6 8 99126 20231004104135
+179.19.234.106 2 4 97764 20231003165347
+186.169.195.189 6 8 99130 20231003162506
+191.156.242.254 1 1 1498 20231013202144
+191.156.250.63 6 8 99106 20231002205539
+40.94.36.90 2 4 97764 20231004140747
+191.102.224.199 2 4 98001 20231005104643
+191.95.30.20 4 6 97826 20231003093157
+186.82.116.98 7 9 99133 20231003144419
+40.94.25.96 2 4 98001 20231005161047
+40.94.28.29 2 4 98001 20231005081601
+35.93.64.254 1 1 165 20231021111114
+40.94.35.24 1 3 96503 20231005081624
+40.94.35.12 1 3 97733 20231002033527
+186.82.87.34 9 9 217 20231003142948
+191.156.60.84 1 1 29 20231007072858
+152.39.239.236 6 38 1249635 20231031055300
+186.28.225.185 2 4 97764 20231002104054
+181.147.231.181 2 4 97764 20231003160059
+34.42.132.193 10 43 1270265 20231019051050
+191.95.20.212 1 1 31 20231004082241
+181.48.255.197 2 4 97764 20231002054857
+40.94.28.22 2 4 97764 20231002075825
+179.33.145.129 2 2 58 20231004221602
+18.236.232.162 2 2 330 20231021194914
+191.95.16.181 6 6 144 20231003173310
+191.156.249.228 2 4 97764 20231002180139
+191.102.220.80 1 1 29 20231004200443
+191.156.46.10 2 2 1527 20231005092337
+191.95.21.120 6 8 99134 20231004080135
+34.212.80.191 2 2 330 20231006115715
+34.219.189.109 6 39 1260586 20231030055834
+35.165.237.50 2 2 330 20231018122035
+54.69.227.32 1 1 165 20231005101244
+46.101.95.126 1 1 165 20231028002902
+181.60.188.111 3 5 99023 20231003182645
+186.169.246.158 6 8 99125 20231002130650
+159.65.153.81 1 1 165 20231028071116
+54.213.140.154 2 2 330 20231021072559
+186.169.212.118 1 1 31 20231004080520
+54.213.138.233 1 1 165 20231010092218
+161.10.120.53 1 1 31 20231003201346
+143.198.122.185 1 1 165 20231028073308
+193.32.87.87 1 1 188 20231008201527
+191.95.23.107 2 4 98001 20231005065405
+52.25.254.42 1 1 165 20231027061922
+186.169.232.209 6 8 99139 20231002164147
+179.1.85.122 6 8 99136 20231002092528
+52.41.255.240 4 4 660 20231013110504
+35.88.188.227 2 2 330 20231002125305
+54.184.72.233 1 1 165 20231003101453
+186.169.150.160 1 1 31 20231004113556
+40.94.25.225 1 1 3099 20231002104648
+35.90.54.169 2 2 330 20231023103551
+186.171.17.99 1 3 29 20231026100147
+34.42.19.193 10 43 1270265 20231024062715
+191.156.42.127 2 4 97764 20231002092232
+186.171.10.247 7 9 99167 20231002113434
+191.95.20.186 2 3 360 20231003163339
+34.219.188.221 1 1 165 20231014102616
+52.167.144.27 6 6 8652 20231003192513
+213.188.80.241 6 38 1249174 20231017055230
+191.156.36.149 1 1 9 20231001193742
+54.201.21.223 1 1 165 20231003101401
+191.156.42.116 2 4 98001 20231006154714
+186.169.150.96 6 8 99134 20231003061512
+186.82.84.63 2 4 97764 20231004080318
+40.94.26.194 2 4 98001 20231005084002
+52.11.167.6 1 1 188 20231011055110
+52.26.156.61 1 1 165 20231005104736
+192.71.142.40 1 1 165 20231003194122
+186.169.236.203 6 8 99134 20231002171357
+34.217.129.121 1 1 165 20231015101437
+34.221.157.184 1 1 165 20231025112859
+191.95.134.167 3 5 98030 20231005100601
+186.116.18.238 4 6 97841 20231002110717
+186.169.139.8 2 4 98001 20231005125408
+35.210.151.25 2 2 330 20231024044854
+186.82.87.94 6 8 99142 20231002155553
+161.10.126.64 2 4 98001 20231005134036
+40.94.28.10 2 4 97764 20231004090720
+40.94.35.91 1 1 31 20231002033528
+161.10.98.86 6 6 145 20231001232540
+206.189.140.163 1 1 165 20231003063200
+18.237.199.144 1 1 165 20231016104242
+181.58.95.115 6 8 99116 20231004161438
+40.94.27.88 2 4 97764 20231004171042
+191.95.17.4 6 8 99136 20231002134926
+35.90.142.124 1 1 165 20231004083657
+186.169.254.74 6 6 1405 20231003184659
+34.171.47.189 13 46 1270760 20231022005429
+52.10.78.243 1 1 165 20231010095042
+191.156.251.1 6 6 1402 20231004103424
+186.169.245.142 6 8 99107 20231004175628
+191.95.17.80 9 11 99240 20231002102007
+199.244.88.225 1 1 165 20231013200845
+191.95.21.198 9 11 100449 20231002114004
+192.36.109.105 1 1 165 20231010061714
+40.94.25.195 2 4 98001 20231005100256
+191.95.30.83 2 2 1527 20231010085718
+191.102.220.137 9 9 241 20231004074131
+191.95.30.137 5 5 1400 20231003142029
+104.248.0.194 1 1 165 20231016081253
+186.169.132.78 2 4 97764 20231002162731
+93.119.227.19 3 3 564 20231001011328
+181.52.234.184 7 9 99138 20231004211925
+186.194.160.250 1 1 109 20231023114951
+186.1.190.35 4 6 99054 20231003081532
+144.217.135.169 3 19 209474 20231027062417
+146.75.208.3 2 4 97764 20231003182948
+181.235.111.154 12 46 1363782 20231005215557
+161.10.122.239 7 9 99158 20231004051837
+191.95.21.87 6 8 99128 20231004084302
+181.58.80.58 6 8 99107 20231004175647
+191.156.248.68 4 6 99054 20231003205439
+191.95.25.231 2 2 1527 20231008094820
+190.240.173.174 10 14 196976 20231003170830
+186.169.131.159 1 1 31 20231004105931
+181.52.8.238 2 4 97764 20231003062842
+34.212.118.48 2 2 330 20231004083200
+5.133.192.175 1 1 165 20231028193028
+190.242.60.72 2 4 97764 20231002143711
+191.156.240.146 2 4 98001 20231005125314
+34.216.219.218 1 1 165 20231030055830
+181.235.97.152 4 4 147 20231002182952
+181.53.37.126 8 8 1466 20231003214823
+191.156.244.60 2 4 97764 20231004073834
+206.189.229.65 1 1 165 20231018091315
+206.189.57.19 1 1 165 20231024091319
+190.109.14.59 11 13 99607 20231006102052
+137.135.50.44 2 4 98001 20231005105908
+54.191.162.207 1 1 165 20231001091220
+191.95.24.30 6 39 1249372 20231004114333
+179.12.3.121 6 8 99125 20231004091056
+186.1.180.54 6 6 2649 20231004101056
+191.156.248.51 3 5 98042 20231005163648
+186.169.217.134 1 1 29 20231006160222
+68.183.10.201 1 1 165 20231001160449
+186.169.135.26 6 8 99135 20231004080313
+34.222.95.94 6 39 1260074 20231001110259
+191.95.21.102 2 2 62 20231004164857
+93.158.91.24 1 1 165 20231008011716
+161.10.101.161 7 9 99160 20231003173938
+186.116.24.210 6 8 99570 20231006062653
+191.156.37.6 2 2 1290 20231001193838
+191.95.30.31 2 4 97764 20231002151356
+191.95.19.60 3 5 97829 20231002093801
+27.115.124.45 6 39 1260074 20231002142941
+191.95.28.151 9 11 101122 20231006093653
+191.95.48.200 6 8 99127 20231004060434
+34.221.243.190 1 1 165 20231027062102
+191.156.241.33 6 6 1513 20231003211624
+52.13.103.109 1 1 165 20231001091036
+40.94.35.76 1 1 1498 20231005081622
+40.94.31.97 1 3 96505 20231002090900
+191.156.33.199 2 4 97764 20231001193607
+149.56.150.173 3 3 564 20231027062351
+54.184.167.158 1 1 165 20231001091007
+186.82.40.16 8 10 99650 20231005151610
+5.133.192.171 1 1 165 20231018080113
+161.10.102.184 9 11 101123 20231006063856
+161.10.113.19 1 1 29 20231008073345
+64.227.144.176 1 1 165 20231014051855
+34.28.245.44 13 46 1270760 20231020081637
+40.94.26.219 2 4 97764 20231002123540
+186.82.84.198 10 12 99221 20231004160224
+172.176.117.104 2 4 97764 20231004105359
+134.209.205.227 1 1 165 20231020100717
+191.95.30.199 6 8 99139 20231002163530
+191.156.42.103 6 7 99250 20231005144559
+27.115.124.101 1 3 97965 20231002143401
+186.116.25.165 7 9 99154 20231004125124
+20.232.147.16 3 5 97764 20231003090800
+181.52.96.100 9 11 99190 20231008113505
+191.95.30.42 7 9 100550 20231002175701
+186.169.190.233 1 1 1259 20231003181324
+191.156.254.81 6 8 99133 20231003161455
+186.98.236.198 8 10 100420 20231002172504
+181.235.104.118 7 9 99168 20231002071925
+52.112.95.38 2 2 6577 20231002100028
+191.95.23.88 7 9 99157 20231004162943
+40.94.26.213 1 1 3829 20231002140344
+199.244.88.221 1 1 165 20231025222054
+40.94.31.55 1 1 1259 20231002090853
+137.184.178.138 1 1 165 20231030074525
+186.82.40.126 9 13 99684 20231005062620
+186.171.20.219 6 8 99138 20231003224216
+186.169.234.54 8 10 99278 20231002090741
+40.94.25.68 1 1 3668 20231002132906
+191.156.248.170 7 7 187 20231004154313
+40.94.25.89 2 4 97764 20231002084632
+40.94.30.151 2 4 97764 20231002144054
+186.82.86.204 1 1 31 20231004065023
+200.29.113.38 2 4 98001 20231005104643
+181.58.94.66 13 17 198230 20231004170607
+181.235.106.205 1 1 1498 20231008084032
+159.89.40.117 1 1 165 20231002115628
+54.71.18.215 1 1 165 20231016085723
+186.98.232.188 2 2 31 20231002132859
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20231001 45 82 1463229 18
+20231002 841 1145 13836364 108
+20231003 434 608 8884897 83
+20231004 437 611 10441772 89
+20231005 225 364 10606135 51
+20231006 81 101 1040891 23
+20231007 7 9 99751 5
+20231008 17 19 109328 13
+20231009 9 14 964652 6
+20231010 9 11 2546 8
+20231011 7 9 16761 4
+20231012 5 7 524 4
+20231013 7 7 2488 4
+20231014 16 51 2112273 9
+20231015 4 6 359 3
+20231016 16 86 1270422 6
+20231017 14 78 2498678 4
+20231018 18 82 2499338 6
+20231019 78 276 7651500 7
+20231020 73 307 12316644 9
+20231021 36 102 2570110 5
+20231022 17 50 1271420 4
+20231023 5 5 769 4
+20231024 117 446 20360811 9
+20231025 58 145 18618397 8
+20231026 43 144 3854624 4
+20231027 37 119 4482833 7
+20231028 6 6 990 6
+20231030 10 45 2164261 5
+20231031 14 80 2597407 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 31
+30s-2mn 97
+30mn-1h 15
+15mn-30mn 15
+0s-30s 333
+1h+ 9
+5mn-15mn 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/citas/get_data.php 706 21620 77 287
+/citas/ 581 681981 255 23
+/citas/get_horarios.php 330 20354 6 24
+/citas/reserva.php 252 2268 1 6
+/ 233 34541 147 111
+/sanmarcos/Views/Index.php 192 1339796 11 20
+/citas/report/ 95 442438 19 12
+/sanmarcos/Templates/Images/Resources/descarga.jfif 53 248268 0 4
+/sanmarcos/Templates/Fonts/Figtree-Medium.ttf 51 1000224 0 6
+/sanmarcos/Templates/Fonts/Figtree-Bold.ttf 51 1023748 0 5
+/sanmarcos/Templates/Fonts/Figtree-SemiBold.ttf 50 979588 0 5
+/sanmarcos/Views/php/guarda_estados.php 40 1720 0 5
+/citas/report/index.php 24 200447 0 6
+/sanmarcos/Views/Estadisticas_generales.php 6 39106 0 1
+/sanmarcos/Views/Estadisticas_especificas.php 6 32016 0 0
+/sanmarcos/Templates/Css/Bootstrap/bootstrap.min.css.map 5 3232160 0 1
+/sanmarcos/Templates/Js/bootstrap.min.js.map 5 957430 0 0
+/sanmarcos/Views/Estadisticas_comparativas.php 3 18027 0 0
+/sanmarcos/Views/Panel_de_control.php 2 5442 0 0
+/sanmarcos/Views/Mantenimientos_de_equipos.php 1 2754 0 0
+END_SIDER

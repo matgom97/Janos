@@ -1,0 +1,28 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/janos.com.co
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/janos.com.co-bytes_log
+documentroot: /home/janoscom/public_html
+group: janoscom
+hascgi: 0
+homedir: /home/janoscom
+ip: 190.8.176.74
+owner: admin
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home/janoscom/public_html/cgi-bin
+    url: /cgi-bin/
+secruleengineoff: 0
+serveradmin: webmaster@janos.com.co
+serveralias: mail.janos.com.co www.janos.com.co
+servername: janos.com.co
+ssl_redirect: 1
+usecanonicalname: 'Off'
+user: janoscom
+userdirprotect: ''

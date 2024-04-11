@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Control de Switches</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://raw.githubusercontent.com/Rob--W/cors-anywhere/master/dist/cors-anywhere.js"></script>
+
+</head>
+<body>
+    <h1>Control de Switches</h1>
+
+    <ul id="switch-list"></ul>
+
+    <div id="chart"></div>
+    <div id="sensor-list"></div>
+
+    <script>
+        var apiUrl = "https://cors-anywhere.herokuapp.com/https://n1r11o7o7lq3kusr1aewq7ttxgui8d68.ui.nabu.casa/api";
+        var authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhODk2ZTQwZGNkNzQ0OGJmYjRkMWZiNjU5ODMxYmY2ZiIsImlhdCI6MTY3OTQ0NTA0OCwiZXhwIjoxOTk0ODA1MDQ4fQ.bKY943sDdMCKDKcz64VnqYnarHaWZi9E33brekUnYHM";
+
+        // Obtener la lista de switches
+        $.ajax({
+            url: apiUrl + "/states?filter=domain=zwave",
+            type: "GET",
+            beforeSend: function(xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + authToken);
+                
+            },
+            success: function(response) {
+                var switches = response.filter(function(entity) {
+                    return entity.entity_id.startsWith("switch.");
+                });
+
+                // Mostrar la lista de switches en la página
+                switches.forEach(function(switchEntity) {
+                    var switchItem = $("<li>").text(switchEntity.attributes.friendly_name);
+
+                    var switchToggle = $("<button>").text("Toggle").click(function() {
+                        toggleSwitch(switchEntity.entity_id);
+                    });
+
+                    switchItem.append(switchToggle);
+
+                    $("#switch-list").append(switchItem);
+                });
+            }
+        });
+
+        // Obtener la lista de sensores de temperatura, voltaje y corriente
+        $.ajax({
+            url: apiUrl + "/states?filter=domain=sensor",
+            type: "GET",
+            beforeSend: function(xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + authToken);
+            },
+            success: function(response) {
+                var sensors = response.filter(function(entity) {
+                    return entity.entity_id.startsWith("sensor.");
+                });
+
+                // Mostrar la lista de sensores en la página
+                sensors.forEach(function(sensorEntity) {
+                    var sensorItem = $("<li>").text(sensorEntity.attributes.friendly_name);
+
+                    var sensorValue = $("<span>").text(sensorEntity.state);
+
+                    sensorItem.append(sensorValue);
+
+                    $("#sensor-list").append(sensorItem);
+                });
+            }
+        });
+
+        function toggleSwitch(entityId) {
+            $.ajax({
+                url: apiUrl + "/services/switch/toggle",
+                type: "POST",
+                beforeSend: function(xhr) {
+                    xhr.setRequestHeader("Authorization", "Bearer " + authToken);
+                },
+                data: JSON.stringify({
+                    entity_id: entityId
+                }),
+                contentType: "application/json",
+                success: function(response) {
+                    console.log(response);
+                }
+            });
+        }
+
+        function updateChart(entityId) {
+
+            $.ajax({
+                url: apiUrl + "/history/period",
+                type: "GET",
+                beforeSend: function(xhr) {
+                    xhr.setRequestHeader("Authorization", "Bearer " + authToken);
+                },
+                data: {
+                    filter_entity_id: entityId,
+                    period: "hour"
+                },
+                success: function(response) {
+                    var data = response[0].data;
+                    var timeData = [];
+                    var stateData = [];
+
+                    for (var i = 0; i < data.length; i++) {
+                        var state = data[i].state == "on" ? 1 : 0;
+                        var time = new Date(data[i].last_updated);
+                        timeData.push(time);
+                        stateData.push(state);
+                    }
+
+                    var chartData = [{
+                        "x": timeData,
+"y": stateData,
+"type": "scatter",
+"mode": "lines",
+"line": {
+"width": 1
+}
+}];
+                var layout = {
+                    "title": "Historial de Encendido/Apagado",
+                    "xaxis": {
+                        "title": "Fecha y Hora"
+                    },
+                    "yaxis": {
+                        "title": "Estado (on/off)",
+                        "tickvals": [0, 1],
+                        "ticktext": ["off", "on"]
+                    }
+                };
+
+                Plotly.newPlot("chart", chartData, layout);
+            },
+            error: function(xhr, status, error) {
+                console.error(xhr.responseText);
+            }
+        });
+    }
+
+    function getSensorList() {
+        $.ajax({
+            url: apiUrl + "/sensors",
+            type: "GET",
+            headers: {
+                "Authorization": "Bearer " + authToken 
+            },
+            success: function(response) {
+                var sensors = response;
+
+                for (var i = 0; i < sensors.length; i++) {
+                    if (sensors[i].type == "sensor") {
+                        if (sensors[i].sensor_type == "energy") {
+                            var entityId = sensors[i].entity_id;
+                            var name = sensors[i].attributes.friendly_name;
+                            var unit = sensors[i].attributes.unit_of_measurement;
+                            var icon = sensors[i].attributes.icon;
+                            var value = sensors[i].state;
+
+                            var sensorCard = '<div class="col-sm-6 col-md-4 col-lg-3 mb-3">' +
+                                             '<div class="card">' +
+                                                 '<div class="card-header">' +
+                                                     '<h5 class="card-title">' + name + '</h5>' +
+                                                 '</div>' +
+                                                 '<div class="card-body">' +
+                                                     '<h6 class="card-subtitle mb-2 text-muted">' + entityId + '</h6>' +
+                                                     '<h1 class="card-text">' + value + ' ' + unit + '</h1>' +
+                                                 '</div>' +
+                                                 '<div class="card-footer text-muted">' +
+                                                     '<button type="button" class="btn btn-primary" onclick="toggleChart(\'' + entityId + '\')">Historial</button>' +
+                                                     '<button type="button" class="btn btn-secondary" onclick="toggleSwitch(\'' + entityId + '\')"><i class="fas fa-power-off"></i></button>' +
+                                                 '</div>' +
+                                             '</div>' +
+                                         '</div>';
+
+                            $("#sensorList").append(sensorCard);
+                        }
+                    }
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error(xhr.responseText);
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        getSensorList();
+    });
+</script>
+</body>
+</html>
